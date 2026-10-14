@@ -1,0 +1,1531 @@
+===== Sv background noise
+4DBackground | SeaAndSky | 
+4DConstrainMinimumSampleSize | true | 
+4DDownsamplePings | true | 
+4DPingVisualization | Spheres | 
+4DSampleVisualizationSize | RelativeToBeamWidth | 
+4DWaterSurface | Tiles | 
+ActiveLineOrSurface | None | 
+AlongtrackCustomThickness | 5 | 
+AlongtrackMaximumBubbleDiameter | 15 | 
+AlongtrackMinimumBubbleDiameter | 5 | 
+AlongtrackUseCustomThickness | false | 
+ApplyMaximumDataThreshold | false | 
+ApplyMinimumDataThreshold | false | 
+ApplyMinimumTsThreshold | false | 
+ApplyTargetFilterAngles | false | 
+ApplyTargetFilterBeamCompensation | false | 
+ApplyTargetFilterOffAxisAngle | false | 
+ApplyTargetFilterPulseLengthAt6dB | false | 
+ApplyTargetFilterPulseLengthAt12dB | false | 
+ApplyTargetFilterPulseLengthAt18dB | false | 
+ApplyTimeVariedDataThreshold | false | 
+ApplyTVG | true | 
+AutoClassifyLiveSchools | false | 
+AutoDisplayLimits | true | 
+BackgroundNoiseAt1m | -999.0 | 
+BottomClassColors | None | 
+BottomClassIds | None | 
+BottomClassNames | None | 
+BottomClassNotes | None | 
+BottomEchoThresholdAt1m | -125.0 | 
+BottomLine | None | 
+CalibrationAssistantBeamCompensationModel | SimradLOBE | 
+CalibrationAssistantCorrectedTwoWayBeamAngle | No data | 
+CalibrationAssistantDataType | Automatic | 
+CalibrationAssistantManufacturerDepth | No data | 
+CalibrationAssistantManufacturerPressure | No data | 
+CalibrationAssistantManufacturerSalinity | No data | 
+CalibrationAssistantManufacturerSoundSpeed | No data | 
+CalibrationAssistantManufacturerTemperature | No data | 
+CalibrationAssistantManufacturerTwoWayBeamAngle | No data | 
+CalibrationAssistantMaximumOffAxisAngle | 0.5 | 
+CalibrationAssistantMaximumOnAxisBeamCompensation | 0.5 | 
+CalibrationAssistantMaximumOnAxisTSDrop | 0.5 | 
+CalibrationAssistantNotes | None | 
+CalibrationAssistantOnAxisMode | OffAxisAngle | 
+CalibrationAssistantOutputFormat | Simrad | 
+CalibrationAssistantSoundSpeedAlgorithm | Manual | 
+CalibrationAssistantSphereDensity | 14900.0 | 
+CalibrationAssistantSphereDiameter | 38.1 | 
+CalibrationAssistantSphereExclusionFrequencyStart | None | 
+CalibrationAssistantSphereExclusionFrequencyStop | None | 
+CalibrationAssistantSphereFrequencyDistribution | None | 
+CalibrationAssistantSphereFrequencyStep | 5.0 | 
+CalibrationAssistantSphereLongitudinalSoundSpeed | 6853.0 | 
+CalibrationAssistantSphereMaterial | TungstenCarbide | 
+CalibrationAssistantSphereTransverseSoundSpeed | 4171.0 | 
+CalibrationAssistantSphereTS | No data | 
+CalibrationAssistantSphereTSDistribution | None | 
+CalibrationAssistantSphereTSInputOption | Model | 
+CalibrationAssistantSvIntegrateSamplesUsing | TransmittedPulseLength | 
+CalibrationAssistantSvIntegrationVariable | None | 
+CalibrationAssistantTSFrequencyResponseVariable | None | 
+CalibrationAssistantTwoWayBeamAngleAlgorithm | SoundSpeedCorrected | 
+CalibrationAssistantWaterDensity | 1000.0 | 
+CalibrationLocalName | None | 
+ColorDisplayMinimum | -70.0 | 
+ColorDisplayRange | 70.0 | 
+ColorLegendLabelsAlignment | RightOfTheColorBar | 
+ColorScheme | DT4 | 
+ContextPingCount | 20 | 
+CruisetrackDataDisplayType | Line | 
+CustomBadTimeSeriesColor | (255, 0, 255) | 
+CustomGoodTimeSeriesColor | (0, 255, 0) | 
+CustomGridColor | (0, 0, 255) | 
+CustomGridLabelFontColor | (0, 0, 0) | 
+CustomGridLabelFontSize | 9 | 
+CustomGridThickness | 1 | 
+CustomTimeSeriesDisplayThickness | 1 | 
+CustomUncertainTimeSeriesColor | (0, 255, 255) | 
+DepthNormalizationReferenceDepth | 50.0 | 
+DetectSchoolsLive | false | 
+DynamicName | None | 
+EchogramBackgroundColor | (128, 128, 128) | 
+ExcludeAboveLineOrSurface | None | 
+ExcludeBadDataRegions | true | 
+ExcludeBadStopLinePings | false | 
+ExcludeBelowLineOrSurface | None | 
+ExcludeBeyondSurfaceMinimumRange | false | 
+ExportFrequencyDistributionBinCount | 40 | 
+ExportFrequencyDistributionMaximum | 20.0 | 
+ExportFrequencyDistributionMinimum | -100.0 | 
+GeoPointAltitudeOfWaterSurface | 0.0 | 
+GeoPointFeatures | None | 
+GeoPointGraphXAxis | BottomHardnessNormalized | 
+GeoPointGraphYAxis | BottomRoughnessNormalized | 
+GraphBeamTitle | None | 
+GraphBeamXAxisLabel | None | 
+GraphBeamXAxisMaximum | No data | 
+GraphBeamXAxisMinimum | No data | 
+GraphBeamYAxisLabel | None | 
+GraphBeamYAxisMaximum | No data | 
+GraphBeamYAxisMinimum | No data | 
+GraphFrequencyDistributionBinCount | 40 | 
+GraphFrequencyDistributionTitle | None | 
+GraphFrequencyDistributionXAxisLabel | None | 
+GraphFrequencyDistributionXAxisMaximum | No data | 
+GraphFrequencyDistributionXAxisMinimum | No data | 
+GraphFrequencyDistributionYAxisLabel | None | 
+GraphFrequencyDistributionYAxisMaximum | No data | 
+GraphFrequencyDistributionYAxisMinimum | No data | 
+GraphPingAngleVsDepthTitle | None | 
+GraphPingAngleVsDepthXAxisLabel | None | 
+GraphPingAngleVsDepthXAxisMaximum | No data | 
+GraphPingAngleVsDepthXAxisMinimum | No data | 
+GraphPingAngleVsDepthYAxisLabel | None | 
+GraphPingAngleVsDepthYAxisMaximum | No data | 
+GraphPingAngleVsDepthYAxisMinimum | No data | 
+GraphPingTitle | None | 
+GraphPingXAxisLabel | None | 
+GraphPingXAxisMaximum | No data | 
+GraphPingXAxisMinimum | No data | 
+GraphPingYAxisLabel | None | 
+GraphPingYAxisMaximum | No data | 
+GraphPingYAxisMinimum | No data | 
+GraphSingleTargetAnglesTitle | None | 
+GraphSingleTargetAnglesXAxisLabel | None | 
+GraphSingleTargetAnglesXAxisMaximum | No data | 
+GraphSingleTargetAnglesXAxisMinimum | No data | 
+GraphSingleTargetAnglesYAxisLabel | None | 
+GraphSingleTargetAnglesYAxisMaximum | No data | 
+GraphSingleTargetAnglesYAxisMinimum | No data | 
+GraphSingleTargetMajorAxisBeamCompensationTitle | None | 
+GraphSingleTargetMajorAxisBeamCompensationXAxisLabel | None | 
+GraphSingleTargetMajorAxisBeamCompensationXAxisMaximum | No data | 
+GraphSingleTargetMajorAxisBeamCompensationXAxisMinimum | No data | 
+GraphSingleTargetMajorAxisBeamCompensationYAxisLabel | None | 
+GraphSingleTargetMajorAxisBeamCompensationYAxisMaximum | No data | 
+GraphSingleTargetMajorAxisBeamCompensationYAxisMinimum | No data | 
+GraphSingleTargetMajorAxisDistanceVsBeamAxisDistanceTitle | None | 
+GraphSingleTargetMajorAxisDistanceVsBeamAxisDistanceXAxisLabel | None | 
+GraphSingleTargetMajorAxisDistanceVsBeamAxisDistanceXAxisMaximum | No data | 
+GraphSingleTargetMajorAxisDistanceVsBeamAxisDistanceXAxisMinimum | No data | 
+GraphSingleTargetMajorAxisDistanceVsBeamAxisDistanceYAxisLabel | None | 
+GraphSingleTargetMajorAxisDistanceVsBeamAxisDistanceYAxisMaximum | No data | 
+GraphSingleTargetMajorAxisDistanceVsBeamAxisDistanceYAxisMinimum | No data | 
+GraphSingleTargetMajorAxisDistanceVsMinorAxisDistanceTitle | None | 
+GraphSingleTargetMajorAxisDistanceVsMinorAxisDistanceXAxisLabel | None | 
+GraphSingleTargetMajorAxisDistanceVsMinorAxisDistanceXAxisMaximum | No data | 
+GraphSingleTargetMajorAxisDistanceVsMinorAxisDistanceXAxisMinimum | No data | 
+GraphSingleTargetMajorAxisDistanceVsMinorAxisDistanceYAxisLabel | None | 
+GraphSingleTargetMajorAxisDistanceVsMinorAxisDistanceYAxisMaximum | No data | 
+GraphSingleTargetMajorAxisDistanceVsMinorAxisDistanceYAxisMinimum | No data | 
+GraphSingleTargetMinorAxisBeamCompensationTitle | None | 
+GraphSingleTargetMinorAxisBeamCompensationXAxisLabel | None | 
+GraphSingleTargetMinorAxisBeamCompensationXAxisMaximum | No data | 
+GraphSingleTargetMinorAxisBeamCompensationXAxisMinimum | No data | 
+GraphSingleTargetMinorAxisBeamCompensationYAxisLabel | None | 
+GraphSingleTargetMinorAxisBeamCompensationYAxisMaximum | No data | 
+GraphSingleTargetMinorAxisBeamCompensationYAxisMinimum | No data | 
+GraphSingleTargetOffAxisBeamCompensationTitle | None | 
+GraphSingleTargetOffAxisBeamCompensationXAxisLabel | None | 
+GraphSingleTargetOffAxisBeamCompensationXAxisMaximum | No data | 
+GraphSingleTargetOffAxisBeamCompensationXAxisMinimum | No data | 
+GraphSingleTargetOffAxisBeamCompensationYAxisLabel | None | 
+GraphSingleTargetOffAxisBeamCompensationYAxisMaximum | No data | 
+GraphSingleTargetOffAxisBeamCompensationYAxisMinimum | No data | 
+GraphSingleTargetPingNumberVsBeamAxisDistanceTitle | None | 
+GraphSingleTargetPingNumberVsBeamAxisDistanceXAxisLabel | None | 
+GraphSingleTargetPingNumberVsBeamAxisDistanceYAxisLabel | None | 
+GraphSingleTargetPingNumberVsBeamAxisDistanceYAxisMaximum | No data | 
+GraphSingleTargetPingNumberVsBeamAxisDistanceYAxisMinimum | No data | 
+GraphSingleTargetPingNumberVsMajorAxisDistanceTitle | None | 
+GraphSingleTargetPingNumberVsMajorAxisDistanceXAxisLabel | None | 
+GraphSingleTargetPingNumberVsMajorAxisDistanceYAxisLabel | None | 
+GraphSingleTargetPingNumberVsMajorAxisDistanceYAxisMaximum | No data | 
+GraphSingleTargetPingNumberVsMajorAxisDistanceYAxisMinimum | No data | 
+GraphSingleTargetTargetTsDistributionTitle | None | 
+GraphSingleTargetTargetTsDistributionXAxisLabel | None | 
+GraphSingleTargetTargetTsDistributionXAxisMaximum | No data | 
+GraphSingleTargetTargetTsDistributionXAxisMinimum | No data | 
+GraphSingleTargetTargetTsDistributionYAxisLabel | None | 
+GraphSingleTargetTargetTsDistributionYAxisMaximum | No data | 
+GraphSingleTargetTargetTsDistributionYAxisMinimum | No data | 
+GraphSingleTargetTsVsDepthTitle | None | 
+GraphSingleTargetTsVsDepthXAxisLabel | None | 
+GraphSingleTargetTsVsDepthXAxisMaximum | No data | 
+GraphSingleTargetTsVsDepthXAxisMinimum | No data | 
+GraphSingleTargetTsVsDepthYAxisLabel | None | 
+GraphSingleTargetTsVsDepthYAxisMaximum | No data | 
+GraphSingleTargetTsVsDepthYAxisMinimum | No data | 
+GraphTimeSeriesScatterPlotTitle | None | 
+GraphTimeSeriesScatterPlotXAxis | -1 | 
+GraphTimeSeriesScatterPlotXAxisLabel | None | 
+GraphTimeSeriesScatterPlotYAxis | -1 | 
+GraphTimeSeriesScatterPlotYAxisLabel | None | 
+GraphTimeSeriesScatterPlotYAxisMaximum | No data | 
+GraphTimeSeriesScatterPlotYAxisMinimum | No data | 
+GraphTimeSeriesTitle | None | 
+GraphTimeSeriesXAxisLabel | None | 
+GraphTimeSeriesYAxisLabel | None | 
+GraphTimeSeriesYAxisMaximum | No data | 
+GraphTimeSeriesYAxisMinimum | No data | 
+GridXAxis | None | 
+GridXAxisIsRelative | false | 
+GridXAxisSpacingInDays | 0.02 | 
+GridXAxisSpacingInHours | 0.5 | 
+GridXAxisSpacingInMeters | 965.0 | 
+GridXAxisSpacingInMinutes | 10.0 | 
+GridXAxisSpacingInNauticalMiles | 0.5000000 | 
+GridXAxisSpacingInPings | 100 | 
+GridYAxisReference | None | 
+GridYAxisReferenceLine | None | 
+GridYAxisSpacing | 50.0 | 
+HModePlotOrientation | HeadUp | 
+IncludeNoDataVolume | true | 
+IntegramAnalysis | None | 
+IntegramBottomVariable | None | 
+IntegramIsLessThanThreshold | false | 
+IntegramThreshold | -50.0 | 
+IntegrationLine | None | 
+IntegrationLineColor | (197, 0, 232) | 
+InvisibleLines | None | 
+InvisibleRegionClasses | None | 
+LiveSchoolsClass | None | 
+LockMaximumDataThresholdToMaximumColor | true | 
+LockMinimumDataThresholdToMinimumColor | true | 
+LowerDisplayLimit | 1000.0 | 
+MajorAxisAngleColorDisplayRange | 12.0 | 
+MajorAxisColorScheme | Major-Axis Angle | 
+MaximumDataThreshold | 99.0 | 
+MinimumDataThreshold | -70.0 | 
+MinimumTSThreshold | -70.0 | 
+MinimumTSThresholdCalibrationDifferenceOffset | 0.0 | 
+MinorAxisAngleColorDisplayRange | 12.0 | 
+MinorAxisColorScheme | Minor-Axis Angle | 
+MultibeamFlipHorizontally | false | 
+MultibeamFlipVertically | false | 
+MultibeamShowBottom | false | 
+MultibeamShowDirectionLabels | false | 
+MultibeamShowTargetClassLabels | true | 
+MultibeamShowTargetOutlines | false | 
+MultibeamShowTargetSampleOutlines | true | 
+Name | Sv background noise | 
+Notes | None | 
+OverridePlatform | false | 
+OverrideTransducerInheritance | false | 
+PingGraphSvAt1m | -120.0 | 
+Platform | None | 
+PositionFilterHemisphere | AsRecorded | 
+PositionFilterMaximumAcceptableGap | 60.0 | 
+PositionFilterMaximumApparentSpeed | 15.0 | 
+PositionFilterMinimumAcceptableGap | 0.0 | 
+PositionFilterProcessingMethod | Method1 | 
+SelectionMovement | Stationary | 
+ShowCruisetrackBadFixes | true | 
+ShowCruisetrackColorLegend | true | 
+ShowCruisetrackGoodFixes | false | 
+ShowCruisetrackGrid | true | 
+ShowCruisetrackScaleBar | true | 
+ShowCruisetrackSynchronizedPosition | true | 
+ShowCruisetrackTransectLabels | false | 
+ShowCruisetrackTransects | true | 
+ShowCruisetrackZoomControls | true | 
+ShowEchogramColorLegend | true | 
+SinglebeamEchogramReferenceLine | None | 
+SinglebeamFlipVertically | false | 
+SingleTargetLowerDetectionRange | 400.0 | 
+SingleTargetThicknessFactor | 1.0 | 
+SingleTargetThicknessSource | TransmittedPulseLength | 
+SingleTargetUpperDetectionRange | 0.0 | 
+SurfaceExclusionDepthOffset | 0.0 | 
+SvFWindowSize | 2.00 | 
+TargetFilterMaximumBeamCompensation | 10.0 | 
+TargetFilterMaximumMajorAxisAngle | 90.0 | 
+TargetFilterMaximumMinorAxisAngle | 90.0 | 
+TargetFilterMaximumOffAxisAngle | 90.0 | 
+TargetFilterMaximumPulseLengthAt6dB | 100.0 | 
+TargetFilterMaximumPulseLengthAt12dB | 100.0 | 
+TargetFilterMaximumPulseLengthAt18dB | 100.0 | 
+TargetFilterMinimumMajorAxisAngle | -90.0 | 
+TargetFilterMinimumMinorAxisAngle | -90.0 | 
+TargetFilterMinimumPulseLengthAt6dB | 0.0 | 
+TargetFilterMinimumPulseLengthAt12dB | 0.0 | 
+TargetFilterMinimumPulseLengthAt18dB | 0.0 | 
+TargetLockedVariable | None | 
+ThresholdedValuesSetTo | Zero | 
+TimeVariedDataThreshold | -999.0 | 
+TowedMediaFixedDepth | 0.0 | 
+TowedMediaFixedDepthSelected | true | 
+TowedMediaVaryingDepth | None | 
+TowLineFixedLength | 0.0 | 
+TowLineFixedLengthSelected | true | 
+TowLineVaryingLength | None | 
+TowPointXAlongshipOffset | 0.0 | 
+TowPointZVerticalOffset | 0.0 | 
+Transducer | Fileset 1: Channel 1 | 
+UnspecifiedTimeSeriesUnitName | None | 
+UnspecifiedTimeSeriesUnitShortName | None | 
+UpperDisplayLimit | 0.0 | 
+UseDefaultGridDisplaySettings | true | 
+UseDefaultTimeSeriesDisplaySettings | true | 
+UsingPrimaryColorScheme | true | 
+VerticalMeters | 10.0 | 
+VerticalOverlap | 0 | 
+VerticalSamples | 5 | 
+VerticalUnits | Meters
+===== Sv noise removed
+4DBackground | SeaAndSky | 
+4DConstrainMinimumSampleSize | true | 
+4DDownsamplePings | true | 
+4DPingVisualization | Spheres | 
+4DSampleVisualizationSize | RelativeToBeamWidth | 
+4DWaterSurface | Tiles | 
+ActiveLineOrSurface | None | 
+AlongtrackCustomThickness | 5 | 
+AlongtrackMaximumBubbleDiameter | 15 | 
+AlongtrackMinimumBubbleDiameter | 5 | 
+AlongtrackUseCustomThickness | false | 
+ApplyMaximumDataThreshold | false | 
+ApplyMinimumDataThreshold | false | 
+ApplyMinimumTsThreshold | false | 
+ApplyTargetFilterAngles | false | 
+ApplyTargetFilterBeamCompensation | false | 
+ApplyTargetFilterOffAxisAngle | false | 
+ApplyTargetFilterPulseLengthAt6dB | false | 
+ApplyTargetFilterPulseLengthAt12dB | false | 
+ApplyTargetFilterPulseLengthAt18dB | false | 
+ApplyTimeVariedDataThreshold | false | 
+AutoClassifyLiveSchools | false | 
+AutoDisplayLimits | true | 
+BackgroundNoiseAt1m | -999.0 | 
+BottomClassColors | None | 
+BottomClassIds | None | 
+BottomClassNames | None | 
+BottomClassNotes | None | 
+BottomEchoThresholdAt1m | -125.0 | 
+BottomLine | None | 
+CalibrationAssistantBeamCompensationModel | SimradLOBE | 
+CalibrationAssistantCorrectedTwoWayBeamAngle | No data | 
+CalibrationAssistantDataType | Automatic | 
+CalibrationAssistantManufacturerDepth | No data | 
+CalibrationAssistantManufacturerPressure | No data | 
+CalibrationAssistantManufacturerSalinity | No data | 
+CalibrationAssistantManufacturerSoundSpeed | No data | 
+CalibrationAssistantManufacturerTemperature | No data | 
+CalibrationAssistantManufacturerTwoWayBeamAngle | No data | 
+CalibrationAssistantMaximumOffAxisAngle | 0.5 | 
+CalibrationAssistantMaximumOnAxisBeamCompensation | 0.5 | 
+CalibrationAssistantMaximumOnAxisTSDrop | 0.5 | 
+CalibrationAssistantNotes | None | 
+CalibrationAssistantOnAxisMode | OffAxisAngle | 
+CalibrationAssistantOutputFormat | Simrad | 
+CalibrationAssistantSoundSpeedAlgorithm | Manual | 
+CalibrationAssistantSphereDensity | 14900.0 | 
+CalibrationAssistantSphereDiameter | 38.1 | 
+CalibrationAssistantSphereExclusionFrequencyStart | None | 
+CalibrationAssistantSphereExclusionFrequencyStop | None | 
+CalibrationAssistantSphereFrequencyDistribution | None | 
+CalibrationAssistantSphereFrequencyStep | 5.0 | 
+CalibrationAssistantSphereLongitudinalSoundSpeed | 6853.0 | 
+CalibrationAssistantSphereMaterial | TungstenCarbide | 
+CalibrationAssistantSphereTransverseSoundSpeed | 4171.0 | 
+CalibrationAssistantSphereTS | No data | 
+CalibrationAssistantSphereTSDistribution | None | 
+CalibrationAssistantSphereTSInputOption | Model | 
+CalibrationAssistantSvIntegrateSamplesUsing | TransmittedPulseLength | 
+CalibrationAssistantSvIntegrationVariable | None | 
+CalibrationAssistantTSFrequencyResponseVariable | None | 
+CalibrationAssistantTwoWayBeamAngleAlgorithm | SoundSpeedCorrected | 
+CalibrationAssistantWaterDensity | 1000.0 | 
+CalibrationLocalName | None | 
+ColorDisplayMinimum | -70.0 | 
+ColorDisplayRange | 70.0 | 
+ColorLegendLabelsAlignment | RightOfTheColorBar | 
+ColorScheme | DT4 | 
+CruisetrackDataDisplayType | Line | 
+CustomBadTimeSeriesColor | (255, 0, 255) | 
+CustomGoodTimeSeriesColor | (0, 255, 0) | 
+CustomGridColor | (0, 0, 255) | 
+CustomGridLabelFontColor | (0, 0, 0) | 
+CustomGridLabelFontSize | 9 | 
+CustomGridThickness | 1 | 
+CustomTimeSeriesDisplayThickness | 1 | 
+CustomUncertainTimeSeriesColor | (0, 255, 255) | 
+DepthNormalizationReferenceDepth | 50.0 | 
+DetectSchoolsLive | false | 
+DynamicName | None | 
+EchogramBackgroundColor | (128, 128, 128) | 
+ExcludeAboveLineOrSurface | None | 
+ExcludeBadDataRegions | true | 
+ExcludeBadStopLinePings | false | 
+ExcludeBelowLineOrSurface | Bottom | 
+ExcludeBeyondSurfaceMinimumRange | false | 
+ExportFrequencyDistributionBinCount | 40 | 
+ExportFrequencyDistributionMaximum | 20.0 | 
+ExportFrequencyDistributionMinimum | -100.0 | 
+GeoPointAltitudeOfWaterSurface | 0.0 | 
+GeoPointFeatures | None | 
+GeoPointGraphXAxis | BottomHardnessNormalized | 
+GeoPointGraphYAxis | BottomRoughnessNormalized | 
+GraphBeamTitle | None | 
+GraphBeamXAxisLabel | None | 
+GraphBeamXAxisMaximum | No data | 
+GraphBeamXAxisMinimum | No data | 
+GraphBeamYAxisLabel | None | 
+GraphBeamYAxisMaximum | No data | 
+GraphBeamYAxisMinimum | No data | 
+GraphFrequencyDistributionBinCount | 40 | 
+GraphFrequencyDistributionTitle | None | 
+GraphFrequencyDistributionXAxisLabel | None | 
+GraphFrequencyDistributionXAxisMaximum | No data | 
+GraphFrequencyDistributionXAxisMinimum | No data | 
+GraphFrequencyDistributionYAxisLabel | None | 
+GraphFrequencyDistributionYAxisMaximum | No data | 
+GraphFrequencyDistributionYAxisMinimum | No data | 
+GraphPingAngleVsDepthTitle | None | 
+GraphPingAngleVsDepthXAxisLabel | None | 
+GraphPingAngleVsDepthXAxisMaximum | No data | 
+GraphPingAngleVsDepthXAxisMinimum | No data | 
+GraphPingAngleVsDepthYAxisLabel | None | 
+GraphPingAngleVsDepthYAxisMaximum | No data | 
+GraphPingAngleVsDepthYAxisMinimum | No data | 
+GraphPingTitle | None | 
+GraphPingXAxisLabel | None | 
+GraphPingXAxisMaximum | No data | 
+GraphPingXAxisMinimum | No data | 
+GraphPingYAxisLabel | None | 
+GraphPingYAxisMaximum | No data | 
+GraphPingYAxisMinimum | No data | 
+GraphSingleTargetAnglesTitle | None | 
+GraphSingleTargetAnglesXAxisLabel | None | 
+GraphSingleTargetAnglesXAxisMaximum | No data | 
+GraphSingleTargetAnglesXAxisMinimum | No data | 
+GraphSingleTargetAnglesYAxisLabel | None | 
+GraphSingleTargetAnglesYAxisMaximum | No data | 
+GraphSingleTargetAnglesYAxisMinimum | No data | 
+GraphSingleTargetMajorAxisBeamCompensationTitle | None | 
+GraphSingleTargetMajorAxisBeamCompensationXAxisLabel | None | 
+GraphSingleTargetMajorAxisBeamCompensationXAxisMaximum | No data | 
+GraphSingleTargetMajorAxisBeamCompensationXAxisMinimum | No data | 
+GraphSingleTargetMajorAxisBeamCompensationYAxisLabel | None | 
+GraphSingleTargetMajorAxisBeamCompensationYAxisMaximum | No data | 
+GraphSingleTargetMajorAxisBeamCompensationYAxisMinimum | No data | 
+GraphSingleTargetMajorAxisDistanceVsBeamAxisDistanceTitle | None | 
+GraphSingleTargetMajorAxisDistanceVsBeamAxisDistanceXAxisLabel | None | 
+GraphSingleTargetMajorAxisDistanceVsBeamAxisDistanceXAxisMaximum | No data | 
+GraphSingleTargetMajorAxisDistanceVsBeamAxisDistanceXAxisMinimum | No data | 
+GraphSingleTargetMajorAxisDistanceVsBeamAxisDistanceYAxisLabel | None | 
+GraphSingleTargetMajorAxisDistanceVsBeamAxisDistanceYAxisMaximum | No data | 
+GraphSingleTargetMajorAxisDistanceVsBeamAxisDistanceYAxisMinimum | No data | 
+GraphSingleTargetMajorAxisDistanceVsMinorAxisDistanceTitle | None | 
+GraphSingleTargetMajorAxisDistanceVsMinorAxisDistanceXAxisLabel | None | 
+GraphSingleTargetMajorAxisDistanceVsMinorAxisDistanceXAxisMaximum | No data | 
+GraphSingleTargetMajorAxisDistanceVsMinorAxisDistanceXAxisMinimum | No data | 
+GraphSingleTargetMajorAxisDistanceVsMinorAxisDistanceYAxisLabel | None | 
+GraphSingleTargetMajorAxisDistanceVsMinorAxisDistanceYAxisMaximum | No data | 
+GraphSingleTargetMajorAxisDistanceVsMinorAxisDistanceYAxisMinimum | No data | 
+GraphSingleTargetMinorAxisBeamCompensationTitle | None | 
+GraphSingleTargetMinorAxisBeamCompensationXAxisLabel | None | 
+GraphSingleTargetMinorAxisBeamCompensationXAxisMaximum | No data | 
+GraphSingleTargetMinorAxisBeamCompensationXAxisMinimum | No data | 
+GraphSingleTargetMinorAxisBeamCompensationYAxisLabel | None | 
+GraphSingleTargetMinorAxisBeamCompensationYAxisMaximum | No data | 
+GraphSingleTargetMinorAxisBeamCompensationYAxisMinimum | No data | 
+GraphSingleTargetOffAxisBeamCompensationTitle | None | 
+GraphSingleTargetOffAxisBeamCompensationXAxisLabel | None | 
+GraphSingleTargetOffAxisBeamCompensationXAxisMaximum | No data | 
+GraphSingleTargetOffAxisBeamCompensationXAxisMinimum | No data | 
+GraphSingleTargetOffAxisBeamCompensationYAxisLabel | None | 
+GraphSingleTargetOffAxisBeamCompensationYAxisMaximum | No data | 
+GraphSingleTargetOffAxisBeamCompensationYAxisMinimum | No data | 
+GraphSingleTargetPingNumberVsBeamAxisDistanceTitle | None | 
+GraphSingleTargetPingNumberVsBeamAxisDistanceXAxisLabel | None | 
+GraphSingleTargetPingNumberVsBeamAxisDistanceYAxisLabel | None | 
+GraphSingleTargetPingNumberVsBeamAxisDistanceYAxisMaximum | No data | 
+GraphSingleTargetPingNumberVsBeamAxisDistanceYAxisMinimum | No data | 
+GraphSingleTargetPingNumberVsMajorAxisDistanceTitle | None | 
+GraphSingleTargetPingNumberVsMajorAxisDistanceXAxisLabel | None | 
+GraphSingleTargetPingNumberVsMajorAxisDistanceYAxisLabel | None | 
+GraphSingleTargetPingNumberVsMajorAxisDistanceYAxisMaximum | No data | 
+GraphSingleTargetPingNumberVsMajorAxisDistanceYAxisMinimum | No data | 
+GraphSingleTargetTargetTsDistributionTitle | None | 
+GraphSingleTargetTargetTsDistributionXAxisLabel | None | 
+GraphSingleTargetTargetTsDistributionXAxisMaximum | No data | 
+GraphSingleTargetTargetTsDistributionXAxisMinimum | No data | 
+GraphSingleTargetTargetTsDistributionYAxisLabel | None | 
+GraphSingleTargetTargetTsDistributionYAxisMaximum | No data | 
+GraphSingleTargetTargetTsDistributionYAxisMinimum | No data | 
+GraphSingleTargetTsVsDepthTitle | None | 
+GraphSingleTargetTsVsDepthXAxisLabel | None | 
+GraphSingleTargetTsVsDepthXAxisMaximum | No data | 
+GraphSingleTargetTsVsDepthXAxisMinimum | No data | 
+GraphSingleTargetTsVsDepthYAxisLabel | None | 
+GraphSingleTargetTsVsDepthYAxisMaximum | No data | 
+GraphSingleTargetTsVsDepthYAxisMinimum | No data | 
+GraphTimeSeriesScatterPlotTitle | None | 
+GraphTimeSeriesScatterPlotXAxis | -1 | 
+GraphTimeSeriesScatterPlotXAxisLabel | None | 
+GraphTimeSeriesScatterPlotYAxis | -1 | 
+GraphTimeSeriesScatterPlotYAxisLabel | None | 
+GraphTimeSeriesScatterPlotYAxisMaximum | No data | 
+GraphTimeSeriesScatterPlotYAxisMinimum | No data | 
+GraphTimeSeriesTitle | None | 
+GraphTimeSeriesXAxisLabel | None | 
+GraphTimeSeriesYAxisLabel | None | 
+GraphTimeSeriesYAxisMaximum | No data | 
+GraphTimeSeriesYAxisMinimum | No data | 
+GridXAxis | None | 
+GridXAxisIsRelative | false | 
+GridXAxisSpacingInDays | 0.02 | 
+GridXAxisSpacingInHours | 0.5 | 
+GridXAxisSpacingInMeters | 965.0 | 
+GridXAxisSpacingInMinutes | 10.0 | 
+GridXAxisSpacingInNauticalMiles | 0.5000000 | 
+GridXAxisSpacingInPings | 100 | 
+GridYAxisReference | None | 
+GridYAxisReferenceLine | None | 
+GridYAxisSpacing | 50.0 | 
+HModePlotOrientation | HeadUp | 
+IncludeNoDataVolume | true | 
+IntegramAnalysis | None | 
+IntegramBottomVariable | None | 
+IntegramIsLessThanThreshold | false | 
+IntegramThreshold | -50.0 | 
+IntegrationLine | None | 
+IntegrationLineColor | (197, 0, 232) | 
+InvisibleLines | None | 
+InvisibleRegionClasses | None | 
+LiveSchoolsClass | None | 
+LockMaximumDataThresholdToMaximumColor | true | 
+LockMinimumDataThresholdToMinimumColor | true | 
+LowerDisplayLimit | 1000.0 | 
+MajorAxisAngleColorDisplayRange | 12.0 | 
+MajorAxisColorScheme | Major-Axis Angle | 
+MaximumDataThreshold | 99.0 | 
+MinimumDataThreshold | -70.0 | 
+MinimumTSThreshold | -70.0 | 
+MinimumTSThresholdCalibrationDifferenceOffset | 0.0 | 
+MinorAxisAngleColorDisplayRange | 12.0 | 
+MinorAxisColorScheme | Minor-Axis Angle | 
+MultibeamFlipHorizontally | false | 
+MultibeamFlipVertically | false | 
+MultibeamShowBottom | false | 
+MultibeamShowDirectionLabels | false | 
+MultibeamShowTargetClassLabels | true | 
+MultibeamShowTargetOutlines | false | 
+MultibeamShowTargetSampleOutlines | true | 
+Name | Sv noise removed | 
+Notes | None | 
+OverridePlatform | false | 
+OverrideTransducerInheritance | false | 
+PingGraphSvAt1m | -120.0 | 
+Platform | None | 
+PositionFilterHemisphere | AsRecorded | 
+PositionFilterMaximumAcceptableGap | 60.0 | 
+PositionFilterMaximumApparentSpeed | 15.0 | 
+PositionFilterMinimumAcceptableGap | 0.0 | 
+PositionFilterProcessingMethod | Method1 | 
+SelectionMovement | Stationary | 
+ShowCruisetrackBadFixes | true | 
+ShowCruisetrackColorLegend | true | 
+ShowCruisetrackGoodFixes | false | 
+ShowCruisetrackGrid | true | 
+ShowCruisetrackScaleBar | true | 
+ShowCruisetrackSynchronizedPosition | true | 
+ShowCruisetrackTransectLabels | false | 
+ShowCruisetrackTransects | true | 
+ShowCruisetrackZoomControls | true | 
+ShowEchogramColorLegend | true | 
+SinglebeamEchogramReferenceLine | None | 
+SinglebeamFlipVertically | false | 
+SingleTargetLowerDetectionRange | 400.0 | 
+SingleTargetThicknessFactor | 1.0 | 
+SingleTargetThicknessSource | TransmittedPulseLength | 
+SingleTargetUpperDetectionRange | 0.0 | 
+SurfaceExclusionDepthOffset | 0.0 | 
+SvFWindowSize | 2.00 | 
+TargetFilterMaximumBeamCompensation | 10.0 | 
+TargetFilterMaximumMajorAxisAngle | 90.0 | 
+TargetFilterMaximumMinorAxisAngle | 90.0 | 
+TargetFilterMaximumOffAxisAngle | 90.0 | 
+TargetFilterMaximumPulseLengthAt6dB | 100.0 | 
+TargetFilterMaximumPulseLengthAt12dB | 100.0 | 
+TargetFilterMaximumPulseLengthAt18dB | 100.0 | 
+TargetFilterMinimumMajorAxisAngle | -90.0 | 
+TargetFilterMinimumMinorAxisAngle | -90.0 | 
+TargetFilterMinimumPulseLengthAt6dB | 0.0 | 
+TargetFilterMinimumPulseLengthAt12dB | 0.0 | 
+TargetFilterMinimumPulseLengthAt18dB | 0.0 | 
+TargetLockedVariable | None | 
+ThresholdedValuesSetTo | Zero | 
+TimeVariedDataThreshold | -999.0 | 
+TowedMediaFixedDepth | 0.0 | 
+TowedMediaFixedDepthSelected | true | 
+TowedMediaVaryingDepth | None | 
+TowLineFixedLength | 0.0 | 
+TowLineFixedLengthSelected | true | 
+TowLineVaryingLength | None | 
+TowPointXAlongshipOffset | 0.0 | 
+TowPointZVerticalOffset | 0.0 | 
+Transducer | Fileset 1: Channel 1 | 
+UnspecifiedTimeSeriesUnitName | None | 
+UnspecifiedTimeSeriesUnitShortName | None | 
+UpperDisplayLimit | 0.0 | 
+UseDefaultGridDisplaySettings | true | 
+UseDefaultTimeSeriesDisplaySettings | true | 
+UsingPrimaryColorScheme | true
+===== TS background noise
+4DBackground | SeaAndSky | 
+4DConstrainMinimumSampleSize | true | 
+4DDownsamplePings | true | 
+4DPingVisualization | Spheres | 
+4DSampleVisualizationSize | RelativeToBeamWidth | 
+4DWaterSurface | Tiles | 
+ActiveLineOrSurface | None | 
+AlongtrackCustomThickness | 5 | 
+AlongtrackMaximumBubbleDiameter | 15 | 
+AlongtrackMinimumBubbleDiameter | 5 | 
+AlongtrackUseCustomThickness | false | 
+ApplyMaximumDataThreshold | false | 
+ApplyMinimumDataThreshold | false | 
+ApplyMinimumTsThreshold | false | 
+ApplyTargetFilterAngles | false | 
+ApplyTargetFilterBeamCompensation | false | 
+ApplyTargetFilterOffAxisAngle | false | 
+ApplyTargetFilterPulseLengthAt6dB | false | 
+ApplyTargetFilterPulseLengthAt12dB | false | 
+ApplyTargetFilterPulseLengthAt18dB | false | 
+ApplyTimeVariedDataThreshold | false | 
+ApplyTVG | true | 
+AutoClassifyLiveSchools | false | 
+AutoDisplayLimits | true | 
+BackgroundNoiseAt1m | -999.0 | 
+BottomClassColors | None | 
+BottomClassIds | None | 
+BottomClassNames | None | 
+BottomClassNotes | None | 
+BottomEchoThresholdAt1m | -125.0 | 
+BottomLine | None | 
+CalibrationAssistantBeamCompensationModel | SimradLOBE | 
+CalibrationAssistantCorrectedTwoWayBeamAngle | No data | 
+CalibrationAssistantDataType | Automatic | 
+CalibrationAssistantManufacturerDepth | No data | 
+CalibrationAssistantManufacturerPressure | No data | 
+CalibrationAssistantManufacturerSalinity | No data | 
+CalibrationAssistantManufacturerSoundSpeed | No data | 
+CalibrationAssistantManufacturerTemperature | No data | 
+CalibrationAssistantManufacturerTwoWayBeamAngle | No data | 
+CalibrationAssistantMaximumOffAxisAngle | 0.5 | 
+CalibrationAssistantMaximumOnAxisBeamCompensation | 0.5 | 
+CalibrationAssistantMaximumOnAxisTSDrop | 0.5 | 
+CalibrationAssistantNotes | None | 
+CalibrationAssistantOnAxisMode | OffAxisAngle | 
+CalibrationAssistantOutputFormat | Simrad | 
+CalibrationAssistantSoundSpeedAlgorithm | Manual | 
+CalibrationAssistantSphereDensity | 14900.0 | 
+CalibrationAssistantSphereDiameter | 38.1 | 
+CalibrationAssistantSphereExclusionFrequencyStart | None | 
+CalibrationAssistantSphereExclusionFrequencyStop | None | 
+CalibrationAssistantSphereFrequencyDistribution | None | 
+CalibrationAssistantSphereFrequencyStep | 5.0 | 
+CalibrationAssistantSphereLongitudinalSoundSpeed | 6853.0 | 
+CalibrationAssistantSphereMaterial | TungstenCarbide | 
+CalibrationAssistantSphereTransverseSoundSpeed | 4171.0 | 
+CalibrationAssistantSphereTS | No data | 
+CalibrationAssistantSphereTSDistribution | None | 
+CalibrationAssistantSphereTSInputOption | Model | 
+CalibrationAssistantSvIntegrateSamplesUsing | TransmittedPulseLength | 
+CalibrationAssistantSvIntegrationVariable | None | 
+CalibrationAssistantTSFrequencyResponseVariable | None | 
+CalibrationAssistantTwoWayBeamAngleAlgorithm | SoundSpeedCorrected | 
+CalibrationAssistantWaterDensity | 1000.0 | 
+CalibrationLocalName | None | 
+ColorDisplayMinimum | -70.0 | 
+ColorDisplayRange | 70.0 | 
+ColorLegendLabelsAlignment | RightOfTheColorBar | 
+ColorScheme | DT4 | 
+ContextPingCount | 20 | 
+CruisetrackDataDisplayType | Line | 
+CustomBadTimeSeriesColor | (255, 0, 255) | 
+CustomGoodTimeSeriesColor | (0, 255, 0) | 
+CustomGridColor | (0, 0, 255) | 
+CustomGridLabelFontColor | (0, 0, 0) | 
+CustomGridLabelFontSize | 9 | 
+CustomGridThickness | 1 | 
+CustomTimeSeriesDisplayThickness | 1 | 
+CustomUncertainTimeSeriesColor | (0, 255, 255) | 
+DepthNormalizationReferenceDepth | 50.0 | 
+DetectSchoolsLive | false | 
+DynamicName | None | 
+EchogramBackgroundColor | (128, 128, 128) | 
+ExcludeAboveLineOrSurface | None | 
+ExcludeBadDataRegions | true | 
+ExcludeBadStopLinePings | false | 
+ExcludeBelowLineOrSurface | None | 
+ExcludeBeyondSurfaceMinimumRange | false | 
+ExportFrequencyDistributionBinCount | 40 | 
+ExportFrequencyDistributionMaximum | 20.0 | 
+ExportFrequencyDistributionMinimum | -100.0 | 
+GeoPointAltitudeOfWaterSurface | 0.0 | 
+GeoPointFeatures | None | 
+GeoPointGraphXAxis | BottomHardnessNormalized | 
+GeoPointGraphYAxis | BottomRoughnessNormalized | 
+GraphBeamTitle | None | 
+GraphBeamXAxisLabel | None | 
+GraphBeamXAxisMaximum | No data | 
+GraphBeamXAxisMinimum | No data | 
+GraphBeamYAxisLabel | None | 
+GraphBeamYAxisMaximum | No data | 
+GraphBeamYAxisMinimum | No data | 
+GraphFrequencyDistributionBinCount | 40 | 
+GraphFrequencyDistributionTitle | None | 
+GraphFrequencyDistributionXAxisLabel | None | 
+GraphFrequencyDistributionXAxisMaximum | No data | 
+GraphFrequencyDistributionXAxisMinimum | No data | 
+GraphFrequencyDistributionYAxisLabel | None | 
+GraphFrequencyDistributionYAxisMaximum | No data | 
+GraphFrequencyDistributionYAxisMinimum | No data | 
+GraphPingAngleVsDepthTitle | None | 
+GraphPingAngleVsDepthXAxisLabel | None | 
+GraphPingAngleVsDepthXAxisMaximum | No data | 
+GraphPingAngleVsDepthXAxisMinimum | No data | 
+GraphPingAngleVsDepthYAxisLabel | None | 
+GraphPingAngleVsDepthYAxisMaximum | No data | 
+GraphPingAngleVsDepthYAxisMinimum | No data | 
+GraphPingTitle | None | 
+GraphPingXAxisLabel | None | 
+GraphPingXAxisMaximum | No data | 
+GraphPingXAxisMinimum | No data | 
+GraphPingYAxisLabel | None | 
+GraphPingYAxisMaximum | No data | 
+GraphPingYAxisMinimum | No data | 
+GraphSingleTargetAnglesTitle | None | 
+GraphSingleTargetAnglesXAxisLabel | None | 
+GraphSingleTargetAnglesXAxisMaximum | No data | 
+GraphSingleTargetAnglesXAxisMinimum | No data | 
+GraphSingleTargetAnglesYAxisLabel | None | 
+GraphSingleTargetAnglesYAxisMaximum | No data | 
+GraphSingleTargetAnglesYAxisMinimum | No data | 
+GraphSingleTargetMajorAxisBeamCompensationTitle | None | 
+GraphSingleTargetMajorAxisBeamCompensationXAxisLabel | None | 
+GraphSingleTargetMajorAxisBeamCompensationXAxisMaximum | No data | 
+GraphSingleTargetMajorAxisBeamCompensationXAxisMinimum | No data | 
+GraphSingleTargetMajorAxisBeamCompensationYAxisLabel | None | 
+GraphSingleTargetMajorAxisBeamCompensationYAxisMaximum | No data | 
+GraphSingleTargetMajorAxisBeamCompensationYAxisMinimum | No data | 
+GraphSingleTargetMajorAxisDistanceVsBeamAxisDistanceTitle | None | 
+GraphSingleTargetMajorAxisDistanceVsBeamAxisDistanceXAxisLabel | None | 
+GraphSingleTargetMajorAxisDistanceVsBeamAxisDistanceXAxisMaximum | No data | 
+GraphSingleTargetMajorAxisDistanceVsBeamAxisDistanceXAxisMinimum | No data | 
+GraphSingleTargetMajorAxisDistanceVsBeamAxisDistanceYAxisLabel | None | 
+GraphSingleTargetMajorAxisDistanceVsBeamAxisDistanceYAxisMaximum | No data | 
+GraphSingleTargetMajorAxisDistanceVsBeamAxisDistanceYAxisMinimum | No data | 
+GraphSingleTargetMajorAxisDistanceVsMinorAxisDistanceTitle | None | 
+GraphSingleTargetMajorAxisDistanceVsMinorAxisDistanceXAxisLabel | None | 
+GraphSingleTargetMajorAxisDistanceVsMinorAxisDistanceXAxisMaximum | No data | 
+GraphSingleTargetMajorAxisDistanceVsMinorAxisDistanceXAxisMinimum | No data | 
+GraphSingleTargetMajorAxisDistanceVsMinorAxisDistanceYAxisLabel | None | 
+GraphSingleTargetMajorAxisDistanceVsMinorAxisDistanceYAxisMaximum | No data | 
+GraphSingleTargetMajorAxisDistanceVsMinorAxisDistanceYAxisMinimum | No data | 
+GraphSingleTargetMinorAxisBeamCompensationTitle | None | 
+GraphSingleTargetMinorAxisBeamCompensationXAxisLabel | None | 
+GraphSingleTargetMinorAxisBeamCompensationXAxisMaximum | No data | 
+GraphSingleTargetMinorAxisBeamCompensationXAxisMinimum | No data | 
+GraphSingleTargetMinorAxisBeamCompensationYAxisLabel | None | 
+GraphSingleTargetMinorAxisBeamCompensationYAxisMaximum | No data | 
+GraphSingleTargetMinorAxisBeamCompensationYAxisMinimum | No data | 
+GraphSingleTargetOffAxisBeamCompensationTitle | None | 
+GraphSingleTargetOffAxisBeamCompensationXAxisLabel | None | 
+GraphSingleTargetOffAxisBeamCompensationXAxisMaximum | No data | 
+GraphSingleTargetOffAxisBeamCompensationXAxisMinimum | No data | 
+GraphSingleTargetOffAxisBeamCompensationYAxisLabel | None | 
+GraphSingleTargetOffAxisBeamCompensationYAxisMaximum | No data | 
+GraphSingleTargetOffAxisBeamCompensationYAxisMinimum | No data | 
+GraphSingleTargetPingNumberVsBeamAxisDistanceTitle | None | 
+GraphSingleTargetPingNumberVsBeamAxisDistanceXAxisLabel | None | 
+GraphSingleTargetPingNumberVsBeamAxisDistanceYAxisLabel | None | 
+GraphSingleTargetPingNumberVsBeamAxisDistanceYAxisMaximum | No data | 
+GraphSingleTargetPingNumberVsBeamAxisDistanceYAxisMinimum | No data | 
+GraphSingleTargetPingNumberVsMajorAxisDistanceTitle | None | 
+GraphSingleTargetPingNumberVsMajorAxisDistanceXAxisLabel | None | 
+GraphSingleTargetPingNumberVsMajorAxisDistanceYAxisLabel | None | 
+GraphSingleTargetPingNumberVsMajorAxisDistanceYAxisMaximum | No data | 
+GraphSingleTargetPingNumberVsMajorAxisDistanceYAxisMinimum | No data | 
+GraphSingleTargetTargetTsDistributionTitle | None | 
+GraphSingleTargetTargetTsDistributionXAxisLabel | None | 
+GraphSingleTargetTargetTsDistributionXAxisMaximum | No data | 
+GraphSingleTargetTargetTsDistributionXAxisMinimum | No data | 
+GraphSingleTargetTargetTsDistributionYAxisLabel | None | 
+GraphSingleTargetTargetTsDistributionYAxisMaximum | No data | 
+GraphSingleTargetTargetTsDistributionYAxisMinimum | No data | 
+GraphSingleTargetTsVsDepthTitle | None | 
+GraphSingleTargetTsVsDepthXAxisLabel | None | 
+GraphSingleTargetTsVsDepthXAxisMaximum | No data | 
+GraphSingleTargetTsVsDepthXAxisMinimum | No data | 
+GraphSingleTargetTsVsDepthYAxisLabel | None | 
+GraphSingleTargetTsVsDepthYAxisMaximum | No data | 
+GraphSingleTargetTsVsDepthYAxisMinimum | No data | 
+GraphTimeSeriesScatterPlotTitle | None | 
+GraphTimeSeriesScatterPlotXAxis | -1 | 
+GraphTimeSeriesScatterPlotXAxisLabel | None | 
+GraphTimeSeriesScatterPlotYAxis | -1 | 
+GraphTimeSeriesScatterPlotYAxisLabel | None | 
+GraphTimeSeriesScatterPlotYAxisMaximum | No data | 
+GraphTimeSeriesScatterPlotYAxisMinimum | No data | 
+GraphTimeSeriesTitle | None | 
+GraphTimeSeriesXAxisLabel | None | 
+GraphTimeSeriesYAxisLabel | None | 
+GraphTimeSeriesYAxisMaximum | No data | 
+GraphTimeSeriesYAxisMinimum | No data | 
+GridXAxis | None | 
+GridXAxisIsRelative | false | 
+GridXAxisSpacingInDays | 0.02 | 
+GridXAxisSpacingInHours | 0.5 | 
+GridXAxisSpacingInMeters | 965.0 | 
+GridXAxisSpacingInMinutes | 10.0 | 
+GridXAxisSpacingInNauticalMiles | 0.5000000 | 
+GridXAxisSpacingInPings | 100 | 
+GridYAxisReference | None | 
+GridYAxisReferenceLine | None | 
+GridYAxisSpacing | 50.0 | 
+HModePlotOrientation | HeadUp | 
+IncludeNoDataVolume | true | 
+IntegramAnalysis | None | 
+IntegramBottomVariable | None | 
+IntegramIsLessThanThreshold | false | 
+IntegramThreshold | -50.0 | 
+IntegrationLine | None | 
+IntegrationLineColor | (197, 0, 232) | 
+InvisibleLines | None | 
+InvisibleRegionClasses | None | 
+LiveSchoolsClass | None | 
+LockMaximumDataThresholdToMaximumColor | true | 
+LockMinimumDataThresholdToMinimumColor | true | 
+LowerDisplayLimit | 1000.0 | 
+MajorAxisAngleColorDisplayRange | 12.0 | 
+MajorAxisColorScheme | Major-Axis Angle | 
+MaximumDataThreshold | 99.0 | 
+MinimumDataThreshold | -70.0 | 
+MinimumTSThreshold | -70.0 | 
+MinimumTSThresholdCalibrationDifferenceOffset | 0.0 | 
+MinorAxisAngleColorDisplayRange | 12.0 | 
+MinorAxisColorScheme | Minor-Axis Angle | 
+MultibeamFlipHorizontally | false | 
+MultibeamFlipVertically | false | 
+MultibeamShowBottom | false | 
+MultibeamShowDirectionLabels | false | 
+MultibeamShowTargetClassLabels | true | 
+MultibeamShowTargetOutlines | false | 
+MultibeamShowTargetSampleOutlines | true | 
+Name | TS background noise | 
+Notes | None | 
+OverridePlatform | false | 
+OverrideTransducerInheritance | false | 
+PingGraphSvAt1m | -120.0 | 
+Platform | None | 
+PositionFilterHemisphere | AsRecorded | 
+PositionFilterMaximumAcceptableGap | 60.0 | 
+PositionFilterMaximumApparentSpeed | 15.0 | 
+PositionFilterMinimumAcceptableGap | 0.0 | 
+PositionFilterProcessingMethod | Method1 | 
+SelectionMovement | Stationary | 
+ShowCruisetrackBadFixes | true | 
+ShowCruisetrackColorLegend | true | 
+ShowCruisetrackGoodFixes | false | 
+ShowCruisetrackGrid | true | 
+ShowCruisetrackScaleBar | true | 
+ShowCruisetrackSynchronizedPosition | true | 
+ShowCruisetrackTransectLabels | false | 
+ShowCruisetrackTransects | true | 
+ShowCruisetrackZoomControls | true | 
+ShowEchogramColorLegend | true | 
+SinglebeamEchogramReferenceLine | None | 
+SinglebeamFlipVertically | false | 
+SingleTargetLowerDetectionRange | 400.0 | 
+SingleTargetThicknessFactor | 1.0 | 
+SingleTargetThicknessSource | TransmittedPulseLength | 
+SingleTargetUpperDetectionRange | 0.0 | 
+SurfaceExclusionDepthOffset | 0.0 | 
+SvFWindowSize | 2.00 | 
+TargetFilterMaximumBeamCompensation | 10.0 | 
+TargetFilterMaximumMajorAxisAngle | 90.0 | 
+TargetFilterMaximumMinorAxisAngle | 90.0 | 
+TargetFilterMaximumOffAxisAngle | 90.0 | 
+TargetFilterMaximumPulseLengthAt6dB | 100.0 | 
+TargetFilterMaximumPulseLengthAt12dB | 100.0 | 
+TargetFilterMaximumPulseLengthAt18dB | 100.0 | 
+TargetFilterMinimumMajorAxisAngle | -90.0 | 
+TargetFilterMinimumMinorAxisAngle | -90.0 | 
+TargetFilterMinimumPulseLengthAt6dB | 0.0 | 
+TargetFilterMinimumPulseLengthAt12dB | 0.0 | 
+TargetFilterMinimumPulseLengthAt18dB | 0.0 | 
+TargetLockedVariable | None | 
+ThresholdedValuesSetTo | Zero | 
+TimeVariedDataThreshold | -999.0 | 
+TowedMediaFixedDepth | 0.0 | 
+TowedMediaFixedDepthSelected | true | 
+TowedMediaVaryingDepth | None | 
+TowLineFixedLength | 0.0 | 
+TowLineFixedLengthSelected | true | 
+TowLineVaryingLength | None | 
+TowPointXAlongshipOffset | 0.0 | 
+TowPointZVerticalOffset | 0.0 | 
+Transducer | Fileset 1: Channel 1 | 
+UnspecifiedTimeSeriesUnitName | None | 
+UnspecifiedTimeSeriesUnitShortName | None | 
+UpperDisplayLimit | 0.0 | 
+UseDefaultGridDisplaySettings | true | 
+UseDefaultTimeSeriesDisplaySettings | true | 
+UsingPrimaryColorScheme | true | 
+VerticalMeters | 10.0 | 
+VerticalOverlap | 0 | 
+VerticalSamples | 5 | 
+VerticalUnits | Meters
+===== TS noise removed
+4DBackground | SeaAndSky | 
+4DConstrainMinimumSampleSize | true | 
+4DDownsamplePings | true | 
+4DPingVisualization | Spheres | 
+4DSampleVisualizationSize | RelativeToBeamWidth | 
+4DWaterSurface | Tiles | 
+ActiveLineOrSurface | None | 
+AlongtrackCustomThickness | 5 | 
+AlongtrackMaximumBubbleDiameter | 15 | 
+AlongtrackMinimumBubbleDiameter | 5 | 
+AlongtrackUseCustomThickness | false | 
+ApplyMaximumDataThreshold | false | 
+ApplyMinimumDataThreshold | false | 
+ApplyMinimumTsThreshold | false | 
+ApplyTargetFilterAngles | false | 
+ApplyTargetFilterBeamCompensation | false | 
+ApplyTargetFilterOffAxisAngle | false | 
+ApplyTargetFilterPulseLengthAt6dB | false | 
+ApplyTargetFilterPulseLengthAt12dB | false | 
+ApplyTargetFilterPulseLengthAt18dB | false | 
+ApplyTimeVariedDataThreshold | false | 
+AutoClassifyLiveSchools | false | 
+AutoDisplayLimits | true | 
+BackgroundNoiseAt1m | -999.0 | 
+BottomClassColors | None | 
+BottomClassIds | None | 
+BottomClassNames | None | 
+BottomClassNotes | None | 
+BottomEchoThresholdAt1m | -125.0 | 
+BottomLine | None | 
+CalibrationAssistantBeamCompensationModel | SimradLOBE | 
+CalibrationAssistantCorrectedTwoWayBeamAngle | No data | 
+CalibrationAssistantDataType | Automatic | 
+CalibrationAssistantManufacturerDepth | No data | 
+CalibrationAssistantManufacturerPressure | No data | 
+CalibrationAssistantManufacturerSalinity | No data | 
+CalibrationAssistantManufacturerSoundSpeed | No data | 
+CalibrationAssistantManufacturerTemperature | No data | 
+CalibrationAssistantManufacturerTwoWayBeamAngle | No data | 
+CalibrationAssistantMaximumOffAxisAngle | 0.5 | 
+CalibrationAssistantMaximumOnAxisBeamCompensation | 0.5 | 
+CalibrationAssistantMaximumOnAxisTSDrop | 0.5 | 
+CalibrationAssistantNotes | None | 
+CalibrationAssistantOnAxisMode | OffAxisAngle | 
+CalibrationAssistantOutputFormat | Simrad | 
+CalibrationAssistantSoundSpeedAlgorithm | Manual | 
+CalibrationAssistantSphereDensity | 14900.0 | 
+CalibrationAssistantSphereDiameter | 38.1 | 
+CalibrationAssistantSphereExclusionFrequencyStart | None | 
+CalibrationAssistantSphereExclusionFrequencyStop | None | 
+CalibrationAssistantSphereFrequencyDistribution | None | 
+CalibrationAssistantSphereFrequencyStep | 5.0 | 
+CalibrationAssistantSphereLongitudinalSoundSpeed | 6853.0 | 
+CalibrationAssistantSphereMaterial | TungstenCarbide | 
+CalibrationAssistantSphereTransverseSoundSpeed | 4171.0 | 
+CalibrationAssistantSphereTS | No data | 
+CalibrationAssistantSphereTSDistribution | None | 
+CalibrationAssistantSphereTSInputOption | Model | 
+CalibrationAssistantSvIntegrateSamplesUsing | TransmittedPulseLength | 
+CalibrationAssistantSvIntegrationVariable | None | 
+CalibrationAssistantTSFrequencyResponseVariable | None | 
+CalibrationAssistantTwoWayBeamAngleAlgorithm | SoundSpeedCorrected | 
+CalibrationAssistantWaterDensity | 1000.0 | 
+CalibrationLocalName | None | 
+ColorDisplayMinimum | -70.0 | 
+ColorDisplayRange | 70.0 | 
+ColorLegendLabelsAlignment | RightOfTheColorBar | 
+ColorScheme | DT4 | 
+CruisetrackDataDisplayType | Line | 
+CustomBadTimeSeriesColor | (255, 0, 255) | 
+CustomGoodTimeSeriesColor | (0, 255, 0) | 
+CustomGridColor | (0, 0, 255) | 
+CustomGridLabelFontColor | (0, 0, 0) | 
+CustomGridLabelFontSize | 9 | 
+CustomGridThickness | 1 | 
+CustomTimeSeriesDisplayThickness | 1 | 
+CustomUncertainTimeSeriesColor | (0, 255, 255) | 
+DepthNormalizationReferenceDepth | 50.0 | 
+DetectSchoolsLive | false | 
+DynamicName | None | 
+EchogramBackgroundColor | (128, 128, 128) | 
+ExcludeAboveLineOrSurface | None | 
+ExcludeBadDataRegions | true | 
+ExcludeBadStopLinePings | false | 
+ExcludeBelowLineOrSurface | None | 
+ExcludeBeyondSurfaceMinimumRange | false | 
+ExportFrequencyDistributionBinCount | 40 | 
+ExportFrequencyDistributionMaximum | 20.0 | 
+ExportFrequencyDistributionMinimum | -100.0 | 
+GeoPointAltitudeOfWaterSurface | 0.0 | 
+GeoPointFeatures | None | 
+GeoPointGraphXAxis | BottomHardnessNormalized | 
+GeoPointGraphYAxis | BottomRoughnessNormalized | 
+GraphBeamTitle | None | 
+GraphBeamXAxisLabel | None | 
+GraphBeamXAxisMaximum | No data | 
+GraphBeamXAxisMinimum | No data | 
+GraphBeamYAxisLabel | None | 
+GraphBeamYAxisMaximum | No data | 
+GraphBeamYAxisMinimum | No data | 
+GraphFrequencyDistributionBinCount | 40 | 
+GraphFrequencyDistributionTitle | None | 
+GraphFrequencyDistributionXAxisLabel | None | 
+GraphFrequencyDistributionXAxisMaximum | No data | 
+GraphFrequencyDistributionXAxisMinimum | No data | 
+GraphFrequencyDistributionYAxisLabel | None | 
+GraphFrequencyDistributionYAxisMaximum | No data | 
+GraphFrequencyDistributionYAxisMinimum | No data | 
+GraphPingAngleVsDepthTitle | None | 
+GraphPingAngleVsDepthXAxisLabel | None | 
+GraphPingAngleVsDepthXAxisMaximum | No data | 
+GraphPingAngleVsDepthXAxisMinimum | No data | 
+GraphPingAngleVsDepthYAxisLabel | None | 
+GraphPingAngleVsDepthYAxisMaximum | No data | 
+GraphPingAngleVsDepthYAxisMinimum | No data | 
+GraphPingTitle | None | 
+GraphPingXAxisLabel | None | 
+GraphPingXAxisMaximum | No data | 
+GraphPingXAxisMinimum | No data | 
+GraphPingYAxisLabel | None | 
+GraphPingYAxisMaximum | No data | 
+GraphPingYAxisMinimum | No data | 
+GraphSingleTargetAnglesTitle | None | 
+GraphSingleTargetAnglesXAxisLabel | None | 
+GraphSingleTargetAnglesXAxisMaximum | No data | 
+GraphSingleTargetAnglesXAxisMinimum | No data | 
+GraphSingleTargetAnglesYAxisLabel | None | 
+GraphSingleTargetAnglesYAxisMaximum | No data | 
+GraphSingleTargetAnglesYAxisMinimum | No data | 
+GraphSingleTargetMajorAxisBeamCompensationTitle | None | 
+GraphSingleTargetMajorAxisBeamCompensationXAxisLabel | None | 
+GraphSingleTargetMajorAxisBeamCompensationXAxisMaximum | No data | 
+GraphSingleTargetMajorAxisBeamCompensationXAxisMinimum | No data | 
+GraphSingleTargetMajorAxisBeamCompensationYAxisLabel | None | 
+GraphSingleTargetMajorAxisBeamCompensationYAxisMaximum | No data | 
+GraphSingleTargetMajorAxisBeamCompensationYAxisMinimum | No data | 
+GraphSingleTargetMajorAxisDistanceVsBeamAxisDistanceTitle | None | 
+GraphSingleTargetMajorAxisDistanceVsBeamAxisDistanceXAxisLabel | None | 
+GraphSingleTargetMajorAxisDistanceVsBeamAxisDistanceXAxisMaximum | No data | 
+GraphSingleTargetMajorAxisDistanceVsBeamAxisDistanceXAxisMinimum | No data | 
+GraphSingleTargetMajorAxisDistanceVsBeamAxisDistanceYAxisLabel | None | 
+GraphSingleTargetMajorAxisDistanceVsBeamAxisDistanceYAxisMaximum | No data | 
+GraphSingleTargetMajorAxisDistanceVsBeamAxisDistanceYAxisMinimum | No data | 
+GraphSingleTargetMajorAxisDistanceVsMinorAxisDistanceTitle | None | 
+GraphSingleTargetMajorAxisDistanceVsMinorAxisDistanceXAxisLabel | None | 
+GraphSingleTargetMajorAxisDistanceVsMinorAxisDistanceXAxisMaximum | No data | 
+GraphSingleTargetMajorAxisDistanceVsMinorAxisDistanceXAxisMinimum | No data | 
+GraphSingleTargetMajorAxisDistanceVsMinorAxisDistanceYAxisLabel | None | 
+GraphSingleTargetMajorAxisDistanceVsMinorAxisDistanceYAxisMaximum | No data | 
+GraphSingleTargetMajorAxisDistanceVsMinorAxisDistanceYAxisMinimum | No data | 
+GraphSingleTargetMinorAxisBeamCompensationTitle | None | 
+GraphSingleTargetMinorAxisBeamCompensationXAxisLabel | None | 
+GraphSingleTargetMinorAxisBeamCompensationXAxisMaximum | No data | 
+GraphSingleTargetMinorAxisBeamCompensationXAxisMinimum | No data | 
+GraphSingleTargetMinorAxisBeamCompensationYAxisLabel | None | 
+GraphSingleTargetMinorAxisBeamCompensationYAxisMaximum | No data | 
+GraphSingleTargetMinorAxisBeamCompensationYAxisMinimum | No data | 
+GraphSingleTargetOffAxisBeamCompensationTitle | None | 
+GraphSingleTargetOffAxisBeamCompensationXAxisLabel | None | 
+GraphSingleTargetOffAxisBeamCompensationXAxisMaximum | No data | 
+GraphSingleTargetOffAxisBeamCompensationXAxisMinimum | No data | 
+GraphSingleTargetOffAxisBeamCompensationYAxisLabel | None | 
+GraphSingleTargetOffAxisBeamCompensationYAxisMaximum | No data | 
+GraphSingleTargetOffAxisBeamCompensationYAxisMinimum | No data | 
+GraphSingleTargetPingNumberVsBeamAxisDistanceTitle | None | 
+GraphSingleTargetPingNumberVsBeamAxisDistanceXAxisLabel | None | 
+GraphSingleTargetPingNumberVsBeamAxisDistanceYAxisLabel | None | 
+GraphSingleTargetPingNumberVsBeamAxisDistanceYAxisMaximum | No data | 
+GraphSingleTargetPingNumberVsBeamAxisDistanceYAxisMinimum | No data | 
+GraphSingleTargetPingNumberVsMajorAxisDistanceTitle | None | 
+GraphSingleTargetPingNumberVsMajorAxisDistanceXAxisLabel | None | 
+GraphSingleTargetPingNumberVsMajorAxisDistanceYAxisLabel | None | 
+GraphSingleTargetPingNumberVsMajorAxisDistanceYAxisMaximum | No data | 
+GraphSingleTargetPingNumberVsMajorAxisDistanceYAxisMinimum | No data | 
+GraphSingleTargetTargetTsDistributionTitle | None | 
+GraphSingleTargetTargetTsDistributionXAxisLabel | None | 
+GraphSingleTargetTargetTsDistributionXAxisMaximum | No data | 
+GraphSingleTargetTargetTsDistributionXAxisMinimum | No data | 
+GraphSingleTargetTargetTsDistributionYAxisLabel | None | 
+GraphSingleTargetTargetTsDistributionYAxisMaximum | No data | 
+GraphSingleTargetTargetTsDistributionYAxisMinimum | No data | 
+GraphSingleTargetTsVsDepthTitle | None | 
+GraphSingleTargetTsVsDepthXAxisLabel | None | 
+GraphSingleTargetTsVsDepthXAxisMaximum | No data | 
+GraphSingleTargetTsVsDepthXAxisMinimum | No data | 
+GraphSingleTargetTsVsDepthYAxisLabel | None | 
+GraphSingleTargetTsVsDepthYAxisMaximum | No data | 
+GraphSingleTargetTsVsDepthYAxisMinimum | No data | 
+GraphTimeSeriesScatterPlotTitle | None | 
+GraphTimeSeriesScatterPlotXAxis | -1 | 
+GraphTimeSeriesScatterPlotXAxisLabel | None | 
+GraphTimeSeriesScatterPlotYAxis | -1 | 
+GraphTimeSeriesScatterPlotYAxisLabel | None | 
+GraphTimeSeriesScatterPlotYAxisMaximum | No data | 
+GraphTimeSeriesScatterPlotYAxisMinimum | No data | 
+GraphTimeSeriesTitle | None | 
+GraphTimeSeriesXAxisLabel | None | 
+GraphTimeSeriesYAxisLabel | None | 
+GraphTimeSeriesYAxisMaximum | No data | 
+GraphTimeSeriesYAxisMinimum | No data | 
+GridXAxis | None | 
+GridXAxisIsRelative | false | 
+GridXAxisSpacingInDays | 0.02 | 
+GridXAxisSpacingInHours | 0.5 | 
+GridXAxisSpacingInMeters | 965.0 | 
+GridXAxisSpacingInMinutes | 10.0 | 
+GridXAxisSpacingInNauticalMiles | 0.5000000 | 
+GridXAxisSpacingInPings | 100 | 
+GridYAxisReference | None | 
+GridYAxisReferenceLine | None | 
+GridYAxisSpacing | 50.0 | 
+HModePlotOrientation | HeadUp | 
+IncludeNoDataVolume | true | 
+IntegramAnalysis | None | 
+IntegramBottomVariable | None | 
+IntegramIsLessThanThreshold | false | 
+IntegramThreshold | -50.0 | 
+IntegrationLine | None | 
+IntegrationLineColor | (197, 0, 232) | 
+InvisibleLines | None | 
+InvisibleRegionClasses | None | 
+LiveSchoolsClass | None | 
+LockMaximumDataThresholdToMaximumColor | true | 
+LockMinimumDataThresholdToMinimumColor | true | 
+LowerDisplayLimit | 1000.0 | 
+MajorAxisAngleColorDisplayRange | 12.0 | 
+MajorAxisColorScheme | Major-Axis Angle | 
+MaximumDataThreshold | 99.0 | 
+MinimumDataThreshold | -70.0 | 
+MinimumTSThreshold | -70.0 | 
+MinimumTSThresholdCalibrationDifferenceOffset | 0.0 | 
+MinorAxisAngleColorDisplayRange | 12.0 | 
+MinorAxisColorScheme | Minor-Axis Angle | 
+MultibeamFlipHorizontally | false | 
+MultibeamFlipVertically | false | 
+MultibeamShowBottom | false | 
+MultibeamShowDirectionLabels | false | 
+MultibeamShowTargetClassLabels | true | 
+MultibeamShowTargetOutlines | false | 
+MultibeamShowTargetSampleOutlines | true | 
+Name | TS noise removed | 
+Notes | None | 
+OverridePlatform | false | 
+OverrideTransducerInheritance | false | 
+PingGraphSvAt1m | -120.0 | 
+Platform | None | 
+PositionFilterHemisphere | AsRecorded | 
+PositionFilterMaximumAcceptableGap | 60.0 | 
+PositionFilterMaximumApparentSpeed | 15.0 | 
+PositionFilterMinimumAcceptableGap | 0.0 | 
+PositionFilterProcessingMethod | Method1 | 
+SelectionMovement | Stationary | 
+ShowCruisetrackBadFixes | true | 
+ShowCruisetrackColorLegend | true | 
+ShowCruisetrackGoodFixes | false | 
+ShowCruisetrackGrid | true | 
+ShowCruisetrackScaleBar | true | 
+ShowCruisetrackSynchronizedPosition | true | 
+ShowCruisetrackTransectLabels | false | 
+ShowCruisetrackTransects | true | 
+ShowCruisetrackZoomControls | true | 
+ShowEchogramColorLegend | true | 
+SinglebeamEchogramReferenceLine | None | 
+SinglebeamFlipVertically | false | 
+SingleTargetLowerDetectionRange | 400.0 | 
+SingleTargetThicknessFactor | 1.0 | 
+SingleTargetThicknessSource | TransmittedPulseLength | 
+SingleTargetUpperDetectionRange | 0.0 | 
+SurfaceExclusionDepthOffset | 0.0 | 
+SvFWindowSize | 2.00 | 
+TargetFilterMaximumBeamCompensation | 10.0 | 
+TargetFilterMaximumMajorAxisAngle | 90.0 | 
+TargetFilterMaximumMinorAxisAngle | 90.0 | 
+TargetFilterMaximumOffAxisAngle | 90.0 | 
+TargetFilterMaximumPulseLengthAt6dB | 100.0 | 
+TargetFilterMaximumPulseLengthAt12dB | 100.0 | 
+TargetFilterMaximumPulseLengthAt18dB | 100.0 | 
+TargetFilterMinimumMajorAxisAngle | -90.0 | 
+TargetFilterMinimumMinorAxisAngle | -90.0 | 
+TargetFilterMinimumPulseLengthAt6dB | 0.0 | 
+TargetFilterMinimumPulseLengthAt12dB | 0.0 | 
+TargetFilterMinimumPulseLengthAt18dB | 0.0 | 
+TargetLockedVariable | None | 
+ThresholdedValuesSetTo | Zero | 
+TimeVariedDataThreshold | -999.0 | 
+TowedMediaFixedDepth | 0.0 | 
+TowedMediaFixedDepthSelected | true | 
+TowedMediaVaryingDepth | None | 
+TowLineFixedLength | 0.0 | 
+TowLineFixedLengthSelected | true | 
+TowLineVaryingLength | None | 
+TowPointXAlongshipOffset | 0.0 | 
+TowPointZVerticalOffset | 0.0 | 
+Transducer | Fileset 1: Channel 1 | 
+UnspecifiedTimeSeriesUnitName | None | 
+UnspecifiedTimeSeriesUnitShortName | None | 
+UpperDisplayLimit | 0.0 | 
+UseDefaultGridDisplaySettings | true | 
+UseDefaultTimeSeriesDisplaySettings | true | 
+UsingPrimaryColorScheme | true
+===== Single targets
+4DBackground | SeaAndSky | 
+4DConstrainMinimumSampleSize | true | 
+4DDownsamplePings | true | 
+4DPingVisualization | Spheres | 
+4DSampleVisualizationSize | RelativeToBeamWidth | 
+4DWaterSurface | Tiles | 
+ActiveLineOrSurface | None | 
+AlongtrackCustomThickness | 5 | 
+AlongtrackMaximumBubbleDiameter | 15 | 
+AlongtrackMinimumBubbleDiameter | 5 | 
+AlongtrackUseCustomThickness | false | 
+ApplyMaximumDataThreshold | false | 
+ApplyMinimumDataThreshold | false | 
+ApplyMinimumTsThreshold | false | 
+ApplyTargetFilterAngles | false | 
+ApplyTargetFilterBeamCompensation | false | 
+ApplyTargetFilterOffAxisAngle | false | 
+ApplyTargetFilterPulseLengthAt6dB | false | 
+ApplyTargetFilterPulseLengthAt12dB | false | 
+ApplyTargetFilterPulseLengthAt18dB | false | 
+ApplyTimeVariedDataThreshold | false | 
+AutoClassifyLiveSchools | false | 
+AutoDisplayLimits | true | 
+BackgroundNoiseAt1m | -999.0 | 
+BeamCompensation | BioSonics | 
+BottomClassColors | None | 
+BottomClassIds | None | 
+BottomClassNames | None | 
+BottomClassNotes | None | 
+BottomEchoThresholdAt1m | -125.0 | 
+BottomLine | None | 
+CalibrationAssistantBeamCompensationModel | SimradLOBE | 
+CalibrationAssistantCorrectedTwoWayBeamAngle | No data | 
+CalibrationAssistantDataType | Automatic | 
+CalibrationAssistantManufacturerDepth | No data | 
+CalibrationAssistantManufacturerPressure | No data | 
+CalibrationAssistantManufacturerSalinity | No data | 
+CalibrationAssistantManufacturerSoundSpeed | No data | 
+CalibrationAssistantManufacturerTemperature | No data | 
+CalibrationAssistantManufacturerTwoWayBeamAngle | No data | 
+CalibrationAssistantMaximumOffAxisAngle | 0.5 | 
+CalibrationAssistantMaximumOnAxisBeamCompensation | 0.5 | 
+CalibrationAssistantMaximumOnAxisTSDrop | 0.5 | 
+CalibrationAssistantNotes | None | 
+CalibrationAssistantOnAxisMode | OffAxisAngle | 
+CalibrationAssistantOutputFormat | Simrad | 
+CalibrationAssistantSoundSpeedAlgorithm | Manual | 
+CalibrationAssistantSphereDensity | 14900.0 | 
+CalibrationAssistantSphereDiameter | 38.1 | 
+CalibrationAssistantSphereExclusionFrequencyStart | None | 
+CalibrationAssistantSphereExclusionFrequencyStop | None | 
+CalibrationAssistantSphereFrequencyDistribution | None | 
+CalibrationAssistantSphereFrequencyStep | 5.0 | 
+CalibrationAssistantSphereLongitudinalSoundSpeed | 6853.0 | 
+CalibrationAssistantSphereMaterial | TungstenCarbide | 
+CalibrationAssistantSphereTransverseSoundSpeed | 4171.0 | 
+CalibrationAssistantSphereTS | No data | 
+CalibrationAssistantSphereTSDistribution | None | 
+CalibrationAssistantSphereTSInputOption | Model | 
+CalibrationAssistantSvIntegrateSamplesUsing | TransmittedPulseLength | 
+CalibrationAssistantSvIntegrationVariable | None | 
+CalibrationAssistantTSFrequencyResponseVariable | None | 
+CalibrationAssistantTwoWayBeamAngleAlgorithm | SoundSpeedCorrected | 
+CalibrationAssistantWaterDensity | 1000.0 | 
+CalibrationLocalName | None | 
+ColorDisplayMinimum | -60.0 | 
+ColorDisplayRange | 30.0 | 
+ColorLegendLabelsAlignment | RightOfTheColorBar | 
+ColorScheme | EK80 | 
+CruisetrackDataDisplayType | Line | 
+CustomBadTimeSeriesColor | (255, 0, 255) | 
+CustomGoodTimeSeriesColor | (0, 255, 0) | 
+CustomGridColor | (0, 0, 255) | 
+CustomGridLabelFontColor | (0, 0, 0) | 
+CustomGridLabelFontSize | 9 | 
+CustomGridThickness | 1 | 
+CustomTimeSeriesDisplayThickness | 1 | 
+CustomUncertainTimeSeriesColor | (0, 255, 255) | 
+DepthNormalizationReferenceDepth | 50.0 | 
+DetectSchoolsLive | false | 
+DynamicName | None | 
+EchogramBackgroundColor | (128, 128, 128) | 
+ExcludeAbove | None | 
+ExcludeAboveLineOrSurface | None | 
+ExcludeBadDataRegions | true | 
+ExcludeBadStopLinePings | false | 
+ExcludeBelow | Bottom | 
+ExcludeBelowLineOrSurface | None | 
+ExcludeBeyondSurfaceMinimumRange | false | 
+ExportFrequencyDistributionBinCount | 40 | 
+ExportFrequencyDistributionMaximum | 20.0 | 
+ExportFrequencyDistributionMinimum | -100.0 | 
+FurunoA | 0.0781 | 
+FurunoB | 0.1721 | 
+FurunoC | 0.3461 | 
+GeoPointAltitudeOfWaterSurface | 0.0 | 
+GeoPointFeatures | None | 
+GeoPointGraphXAxis | BottomHardnessNormalized | 
+GeoPointGraphYAxis | BottomRoughnessNormalized | 
+GraphBeamTitle | None | 
+GraphBeamXAxisLabel | None | 
+GraphBeamXAxisMaximum | No data | 
+GraphBeamXAxisMinimum | No data | 
+GraphBeamYAxisLabel | None | 
+GraphBeamYAxisMaximum | No data | 
+GraphBeamYAxisMinimum | No data | 
+GraphFrequencyDistributionBinCount | 40 | 
+GraphFrequencyDistributionTitle | None | 
+GraphFrequencyDistributionXAxisLabel | None | 
+GraphFrequencyDistributionXAxisMaximum | No data | 
+GraphFrequencyDistributionXAxisMinimum | No data | 
+GraphFrequencyDistributionYAxisLabel | None | 
+GraphFrequencyDistributionYAxisMaximum | No data | 
+GraphFrequencyDistributionYAxisMinimum | No data | 
+GraphPingAngleVsDepthTitle | None | 
+GraphPingAngleVsDepthXAxisLabel | None | 
+GraphPingAngleVsDepthXAxisMaximum | No data | 
+GraphPingAngleVsDepthXAxisMinimum | No data | 
+GraphPingAngleVsDepthYAxisLabel | None | 
+GraphPingAngleVsDepthYAxisMaximum | No data | 
+GraphPingAngleVsDepthYAxisMinimum | No data | 
+GraphPingTitle | None | 
+GraphPingXAxisLabel | None | 
+GraphPingXAxisMaximum | No data | 
+GraphPingXAxisMinimum | No data | 
+GraphPingYAxisLabel | None | 
+GraphPingYAxisMaximum | No data | 
+GraphPingYAxisMinimum | No data | 
+GraphSingleTargetAnglesTitle | None | 
+GraphSingleTargetAnglesXAxisLabel | None | 
+GraphSingleTargetAnglesXAxisMaximum | No data | 
+GraphSingleTargetAnglesXAxisMinimum | No data | 
+GraphSingleTargetAnglesYAxisLabel | None | 
+GraphSingleTargetAnglesYAxisMaximum | No data | 
+GraphSingleTargetAnglesYAxisMinimum | No data | 
+GraphSingleTargetMajorAxisBeamCompensationTitle | None | 
+GraphSingleTargetMajorAxisBeamCompensationXAxisLabel | None | 
+GraphSingleTargetMajorAxisBeamCompensationXAxisMaximum | No data | 
+GraphSingleTargetMajorAxisBeamCompensationXAxisMinimum | No data | 
+GraphSingleTargetMajorAxisBeamCompensationYAxisLabel | None | 
+GraphSingleTargetMajorAxisBeamCompensationYAxisMaximum | No data | 
+GraphSingleTargetMajorAxisBeamCompensationYAxisMinimum | No data | 
+GraphSingleTargetMajorAxisDistanceVsBeamAxisDistanceTitle | None | 
+GraphSingleTargetMajorAxisDistanceVsBeamAxisDistanceXAxisLabel | None | 
+GraphSingleTargetMajorAxisDistanceVsBeamAxisDistanceXAxisMaximum | No data | 
+GraphSingleTargetMajorAxisDistanceVsBeamAxisDistanceXAxisMinimum | No data | 
+GraphSingleTargetMajorAxisDistanceVsBeamAxisDistanceYAxisLabel | None | 
+GraphSingleTargetMajorAxisDistanceVsBeamAxisDistanceYAxisMaximum | No data | 
+GraphSingleTargetMajorAxisDistanceVsBeamAxisDistanceYAxisMinimum | No data | 
+GraphSingleTargetMajorAxisDistanceVsMinorAxisDistanceTitle | None | 
+GraphSingleTargetMajorAxisDistanceVsMinorAxisDistanceXAxisLabel | None | 
+GraphSingleTargetMajorAxisDistanceVsMinorAxisDistanceXAxisMaximum | No data | 
+GraphSingleTargetMajorAxisDistanceVsMinorAxisDistanceXAxisMinimum | No data | 
+GraphSingleTargetMajorAxisDistanceVsMinorAxisDistanceYAxisLabel | None | 
+GraphSingleTargetMajorAxisDistanceVsMinorAxisDistanceYAxisMaximum | No data | 
+GraphSingleTargetMajorAxisDistanceVsMinorAxisDistanceYAxisMinimum | No data | 
+GraphSingleTargetMinorAxisBeamCompensationTitle | None | 
+GraphSingleTargetMinorAxisBeamCompensationXAxisLabel | None | 
+GraphSingleTargetMinorAxisBeamCompensationXAxisMaximum | No data | 
+GraphSingleTargetMinorAxisBeamCompensationXAxisMinimum | No data | 
+GraphSingleTargetMinorAxisBeamCompensationYAxisLabel | None | 
+GraphSingleTargetMinorAxisBeamCompensationYAxisMaximum | No data | 
+GraphSingleTargetMinorAxisBeamCompensationYAxisMinimum | No data | 
+GraphSingleTargetOffAxisBeamCompensationTitle | None | 
+GraphSingleTargetOffAxisBeamCompensationXAxisLabel | None | 
+GraphSingleTargetOffAxisBeamCompensationXAxisMaximum | No data | 
+GraphSingleTargetOffAxisBeamCompensationXAxisMinimum | No data | 
+GraphSingleTargetOffAxisBeamCompensationYAxisLabel | None | 
+GraphSingleTargetOffAxisBeamCompensationYAxisMaximum | No data | 
+GraphSingleTargetOffAxisBeamCompensationYAxisMinimum | No data | 
+GraphSingleTargetPingNumberVsBeamAxisDistanceTitle | None | 
+GraphSingleTargetPingNumberVsBeamAxisDistanceXAxisLabel | None | 
+GraphSingleTargetPingNumberVsBeamAxisDistanceYAxisLabel | None | 
+GraphSingleTargetPingNumberVsBeamAxisDistanceYAxisMaximum | No data | 
+GraphSingleTargetPingNumberVsBeamAxisDistanceYAxisMinimum | No data | 
+GraphSingleTargetPingNumberVsMajorAxisDistanceTitle | None | 
+GraphSingleTargetPingNumberVsMajorAxisDistanceXAxisLabel | None | 
+GraphSingleTargetPingNumberVsMajorAxisDistanceYAxisLabel | None | 
+GraphSingleTargetPingNumberVsMajorAxisDistanceYAxisMaximum | No data | 
+GraphSingleTargetPingNumberVsMajorAxisDistanceYAxisMinimum | No data | 
+GraphSingleTargetTargetTsDistributionTitle | None | 
+GraphSingleTargetTargetTsDistributionXAxisLabel | None | 
+GraphSingleTargetTargetTsDistributionXAxisMaximum | No data | 
+GraphSingleTargetTargetTsDistributionXAxisMinimum | No data | 
+GraphSingleTargetTargetTsDistributionYAxisLabel | None | 
+GraphSingleTargetTargetTsDistributionYAxisMaximum | No data | 
+GraphSingleTargetTargetTsDistributionYAxisMinimum | No data | 
+GraphSingleTargetTsVsDepthTitle | None | 
+GraphSingleTargetTsVsDepthXAxisLabel | None | 
+GraphSingleTargetTsVsDepthXAxisMaximum | No data | 
+GraphSingleTargetTsVsDepthXAxisMinimum | No data | 
+GraphSingleTargetTsVsDepthYAxisLabel | None | 
+GraphSingleTargetTsVsDepthYAxisMaximum | No data | 
+GraphSingleTargetTsVsDepthYAxisMinimum | No data | 
+GraphTimeSeriesScatterPlotTitle | None | 
+GraphTimeSeriesScatterPlotXAxis | -1 | 
+GraphTimeSeriesScatterPlotXAxisLabel | None | 
+GraphTimeSeriesScatterPlotYAxis | -1 | 
+GraphTimeSeriesScatterPlotYAxisLabel | None | 
+GraphTimeSeriesScatterPlotYAxisMaximum | No data | 
+GraphTimeSeriesScatterPlotYAxisMinimum | No data | 
+GraphTimeSeriesTitle | None | 
+GraphTimeSeriesXAxisLabel | None | 
+GraphTimeSeriesYAxisLabel | None | 
+GraphTimeSeriesYAxisMaximum | No data | 
+GraphTimeSeriesYAxisMinimum | No data | 
+GridXAxis | None | 
+GridXAxisIsRelative | false | 
+GridXAxisSpacingInDays | 0.02 | 
+GridXAxisSpacingInHours | 0.5 | 
+GridXAxisSpacingInMeters | 965.0 | 
+GridXAxisSpacingInMinutes | 10.0 | 
+GridXAxisSpacingInNauticalMiles | 0.5000000 | 
+GridXAxisSpacingInPings | 100 | 
+GridYAxisReference | None | 
+GridYAxisReferenceLine | None | 
+GridYAxisSpacing | 50.0 | 
+HModePlotOrientation | HeadUp | 
+HTIBeamPatternCoefficients | 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 | 
+IncludeNoDataVolume | true | 
+IntegramAnalysis | None | 
+IntegramBottomVariable | None | 
+IntegramIsLessThanThreshold | false | 
+IntegramThreshold | -50.0 | 
+IntegrationLine | None | 
+IntegrationLineColor | (197, 0, 232) | 
+InvisibleLines | None | 
+InvisibleRegionClasses | None | 
+LiveSchoolsClass | None | 
+LockMaximumDataThresholdToMaximumColor | true | 
+LockMinimumDataThresholdToMinimumColor | true | 
+LowerDisplayLimit | 1000.0 | 
+MajorAxisAngleColorDisplayRange | 12.0 | 
+MajorAxisColorScheme | Major-Axis Angle | 
+MajorAxisMaximumStdDevOfAngles | 0.6 | 
+MaximumBeamCompensation | 6.0 | 
+MaximumDataThreshold | 99.0 | 
+MaximumPulseLength | 1.5 | 
+MinimumDataThreshold | -70.0 | 
+MinimumPulseLength | 0.6 | 
+MinimumTSThreshold | -70.0 | 
+MinimumTSThresholdCalibrationDifferenceOffset | 0.0 | 
+MinorAxisAngleColorDisplayRange | 12.0 | 
+MinorAxisColorScheme | Minor-Axis Angle | 
+MinorAxisMaximumStdDevOfAngles | 0.6 | 
+MultibeamFlipHorizontally | false | 
+MultibeamFlipVertically | false | 
+MultibeamShowBottom | false | 
+MultibeamShowDirectionLabels | false | 
+MultibeamShowTargetClassLabels | true | 
+MultibeamShowTargetOutlines | false | 
+MultibeamShowTargetSampleOutlines | true | 
+Name | Single targets | 
+Notes | None | 
+OverridePlatform | false | 
+OverrideTransducerInheritance | false | 
+PingGraphSvAt1m | -120.0 | 
+Platform | None | 
+PositionFilterHemisphere | AsRecorded | 
+PositionFilterMaximumAcceptableGap | 60.0 | 
+PositionFilterMaximumApparentSpeed | 15.0 | 
+PositionFilterMinimumAcceptableGap | 0.0 | 
+PositionFilterProcessingMethod | Method1 | 
+PulseLengthDeterminationLevel | 6.0 | 
+SelectionMovement | Stationary | 
+ShowCruisetrackBadFixes | true | 
+ShowCruisetrackColorLegend | true | 
+ShowCruisetrackGoodFixes | false | 
+ShowCruisetrackGrid | true | 
+ShowCruisetrackScaleBar | true | 
+ShowCruisetrackSynchronizedPosition | true | 
+ShowCruisetrackTransectLabels | false | 
+ShowCruisetrackTransects | true | 
+ShowCruisetrackZoomControls | true | 
+ShowEchogramColorLegend | true | 
+SinglebeamEchogramReferenceLine | None | 
+SinglebeamFlipVertically | false | 
+SingleTargetLowerDetectionRange | 400.0 | 
+SingleTargetThicknessFactor | 1.0 | 
+SingleTargetThicknessSource | TransmittedPulseLength | 
+SingleTargetUpperDetectionRange | 0.0 | 
+SurfaceExclusionDepthOffset | 0.0 | 
+SvFWindowSize | 2.00 | 
+TargetFilterMaximumBeamCompensation | 10.0 | 
+TargetFilterMaximumMajorAxisAngle | 90.0 | 
+TargetFilterMaximumMinorAxisAngle | 90.0 | 
+TargetFilterMaximumOffAxisAngle | 90.0 | 
+TargetFilterMaximumPulseLengthAt6dB | 100.0 | 
+TargetFilterMaximumPulseLengthAt12dB | 100.0 | 
+TargetFilterMaximumPulseLengthAt18dB | 100.0 | 
+TargetFilterMinimumMajorAxisAngle | -90.0 | 
+TargetFilterMinimumMinorAxisAngle | -90.0 | 
+TargetFilterMinimumPulseLengthAt6dB | 0.0 | 
+TargetFilterMinimumPulseLengthAt12dB | 0.0 | 
+TargetFilterMinimumPulseLengthAt18dB | 0.0 | 
+TargetLockedVariable | None | 
+ThresholdedValuesSetTo | Zero | 
+TimeVariedDataThreshold | -999.0 | 
+TowedMediaFixedDepth | 0.0 | 
+TowedMediaFixedDepthSelected | true | 
+TowedMediaVaryingDepth | None | 
+TowLineFixedLength | 0.0 | 
+TowLineFixedLengthSelected | true | 
+TowLineVaryingLength | None | 
+TowPointXAlongshipOffset | 0.0 | 
+TowPointZVerticalOffset | 0.0 | 
+Transducer | Fileset 1: Channel 1 | 
+TSThreshold | -60.0 | 
+UnspecifiedTimeSeriesUnitName | None | 
+UnspecifiedTimeSeriesUnitShortName | None | 
+UpperDisplayLimit | 0.0 | 
+UseDefaultGridDisplaySettings | true | 
+UseDefaultTimeSeriesDisplaySettings | true | 
+UsingPrimaryColorScheme | true

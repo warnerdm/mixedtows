@@ -1,0 +1,77 @@
+# Echoview processing settings used by step 4 (src/bloaterts/ev_build.py), which builds every
+# tow's EV file from this file. Every setting is read back from Echoview and logged per tow.
+#
+# Single target detection - split beam (method 2). Source: Great Lakes acoustic SOP
+# (Parker-Stetter et al. 2009, GLFC Spec. Pub. 09-01), with compensated TS limited to -60 to
+# -30 dB, and a minimum normalized pulse length of 0.5 for Simrad power data (4 samples per
+# pulse make 0.6 reject every 3-sample echo). These are the settings pydt4 uses
+# (pydt4: single_target.STDParams.great_lakes_sop, tow_echograms.SIMRAD_POWER_MIN_NORM_PULSE_LENGTH).
+
+common:
+  ts_threshold_db: -60.0            # minimum compensated TS
+  ts_max_db: -30.0                  # maximum compensated TS: not an Echoview method 2 setting;
+                                    # applied to the exported targets
+  pulse_length_determination_level_db: 6.0
+  max_normalized_pulse_length: 1.5
+  max_beam_compensation_db: 6.0
+  max_sd_minor_axis_angles_deg: 0.6
+  max_sd_major_axis_angles_deg: 0.6
+
+dt4:                                # BioSonics
+  beam_compensation: BioSonics
+  min_normalized_pulse_length: 0.6
+
+simrad_power:                       # EK60 and EK80 GPT (Baird)
+  beam_compensation: SimradLOBE
+  min_normalized_pulse_length: 0.5
+  echoview_min_normalized_pulse_length: 0.499   # Echoview computes a 3-sample echo's length
+                                                # from 32-bit values as 0.4999999 and drops it at
+                                                # 0.5; 0.499 keeps it (pydt4, 2026-10-02)
+
+simrad_complex_cw:                  # EK80 WBT, CW (Sturgeon 2022-2023)
+  beam_compensation: SimradLOBE
+  min_normalized_pulse_length: 0.6
+
+# Bottom line: Maximum Sv line pick on the RAW Sv of the target channel; the exclude-below line
+# for single targets and for the noise-reduced Sv (pydt4 bottom_detect.BottomParams).
+bottom_line:
+  algorithm: maximum_sv
+  start_depth_below_transducer_m: {dt4: 10.0, raw: 10.0}  # Simrad: transmit ringing; dt4: near-surface picks (user, 2026-10-05; pydt4 BottomParams)
+  stop_depth_m: 300.0
+  min_sv_good_pick_db: -70.0
+  discrimination_level_db: -50.0
+  backstep_m: 0.5                   # Echoview takes it as a negative number (-0.5)
+  span_gaps: true
+
+# Background noise estimation (De Robertis and Higginbottom 2007) on the raw Sv and the raw TS,
+# then Linear minus (raw - noise, linear domain). The noise-reduced Sv gives region mean Sv and
+# Nv; the noise-reduced TS is operand 1 of single target detection, with the RAW angular position
+# as operand 2. Averaging cell: Echoview's defaults (20 pings, 0% overlap, TVG applied to the
+# output) except the vertical extent, 10 m as in De Robertis and Higginbottom (2007), instead of
+# Echoview's default 5 samples (user, 2026-10-03). Keys are Echoview property names, set and read
+# back through the command interface ("<variable> | Properties <name> =| <value>").
+background_noise:
+  ContextPingCount: 20              # horizontal extent (pings)
+  VerticalUnits: Meters
+  VerticalMeters: 10.0              # vertical extent (m)
+  VerticalOverlap: 0                # %
+  ApplyTVG: true
+
+# EV file echogram display settings (EV File Properties, Echogram page), set through the command
+# interface ("Ev File | Properties <name> =| <value>") and read back.
+echogram:
+  EchogramShowRegionNames: true     # region name "OP_ID = <OP_ID>" shown on the echograms (user, 2026-10-03)
+
+# EV file settings applied before the data files are added (user, 2026-10-03).
+ev_file_before_data:
+  CreateMarkerRegionsFromDataFiles: false   # no marker regions from data-file annotations
+
+# Display of the single-targets variable, for comparable echogram images (user, 2026-10-03):
+# EK80 palette, fixed scale -60 to -30 dB (minimum + range). Display only; the data thresholds
+# stay off (read back).
+single_targets_display:
+  ColorScheme: EK80
+  ColorDisplayMinimum: -60.0
+  ColorDisplayRange: 30.0
+  ApplyMinimumTsThreshold: false
+  ApplyMinimumDataThreshold: false

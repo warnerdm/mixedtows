@@ -1,0 +1,17 @@
+#  ECHOVIEW CALIBRATION SUPPLEMENT (.ECS) FILE - Baird 2018 (LAKE HURON tows), Simrad EK80 GPT, 120 kHz (ES120-7C S/N 970)
+#  Values: EK80 calibration fit results (7 Aug 2018 sphere session, user's EK80 replay 2026-10-02),
+#  calibration\Baird_Huron_2018_120kHz_EK80_cal.xml: gain 26.72, sa correction -0.5773, beam widths 6.60 along /
+#  6.55 athwart, angle offsets -0.01 along / -0.14 athwart, RMS 0.098 dB. TwoWayBeamAngle: -20.70, the file's value
+#  (survey and calibration files). Same values as pydt4's SIMRAD_CAL[(35, 2018)]. The Huron 2018 tow files hold the
+#  same unit (s/n 970), 250 W, 256 us. Echoview axes: minor = alongship. Made 2026-10-13.
+
+Version 1.00
+
+SourceCal T2
+      TransducerGain = 26.72
+      SaCorrectionFactor = -0.5773
+      TwoWayBeamAngle = -20.70
+      MinorAxis3dbBeamAngle = 6.60
+      MajorAxis3dbBeamAngle = 6.55
+      MinorAxisAngleOffset = -0.01
+      MajorAxisAngleOffset = -0.14

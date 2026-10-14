@@ -1,0 +1,20 @@
+#  LAKE HURON copy of Baird_Michigan_2015_120kHz_T2.ecs (2026-10-13): the Huron tows use the same unit and settings (checked
+#  2026-10-13; pydt4 claude_calibration_notes.md). Keep identical to the Michigan file.
+#  ECHOVIEW CALIBRATION SUPPLEMENT (.ECS) FILE - Baird 2015, Simrad EK60, 120 kHz (ES120-7C)
+#  Values: those stored in the 2015 survey files (identical in all 388 files), apparently from a
+#  2015 calibration applied before collection (user's belief). No 2015 calibration report exists.
+#  Same values as pydt4's SIMRAD_CAL[(35, 2015)] = 'file' and its Echoview comparison of tow
+#  93075 (Sv -75.2846 vs -75.2846 dB). Transducer serial unknown for 2015 (2014: S/N 309, from the
+#  2014 EK60 calibration output; 2024: S/N 970). The 120 kHz transducer is T2 in the survey files.
+#  Echoview axes: minor = alongship, major = athwartship.
+
+Version 1.00
+
+SourceCal T2
+      TransducerGain = 27.05
+      SaCorrectionFactor = -0.56
+      TwoWayBeamAngle = -20.5
+      MinorAxis3dbBeamAngle = 6.17
+      MajorAxis3dbBeamAngle = 6.18
+      MinorAxisAngleOffset = -0.01
+      MajorAxisAngleOffset = -0.11

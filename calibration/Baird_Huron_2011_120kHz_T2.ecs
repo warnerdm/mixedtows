@@ -1,0 +1,20 @@
+﻿#  ECHOVIEW CALIBRATION SUPPLEMENT (.ECS) FILE - Baird 2011 LAKE HURON, Simrad EK60, 120 kHz
+#  Values: ER60 calibration utility (beam model), 7 Sep 2011, Straits of Mackinac, GPT 120 kHz
+#  0090720580f0 / ES120-7C s/n 309, 256 us, 300 W: gain 26.77, sa correction -0.58, beam widths
+#  6.60 along / 6.57 athwart, angle offsets 0.10 along / -0.10 athwart, RMS 0.32 dB; sphere TS -39.58
+#  (38.1 mm WC at 16 C, user 2026-10-13). The survey files store exactly these values (pydt4
+#  SIMRAD_CAL[(35, 2011)] = "file"; verified by pydt4's refit of the utility's hits). Report:
+#  pydt4 data\Calibration_2011\baird\Sep07.2011.120kHz.cal\Seo07cal_120kHz_256us_300W.
+#  TwoWayBeamAngle: the file's own value. The 120 kHz transducer is T2 in the survey files (70 kHz T1).
+#  Echoview axes: minor = alongship, major = athwartship.
+
+Version 1.00
+
+SourceCal T2
+      TransducerGain = 26.77
+      SaCorrectionFactor = -0.58
+      TwoWayBeamAngle = -20.1
+      MinorAxis3dbBeamAngle = 6.60
+      MajorAxis3dbBeamAngle = 6.57
+      MinorAxisAngleOffset = 0.10
+      MajorAxisAngleOffset = -0.10

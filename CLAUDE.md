@@ -30,14 +30,19 @@ patterns in acoustic data that should come from mixed species. Lake Huron first.
   and writes `data/acoustic/tow_matches.csv` and `tow_files.csv`. Failed matches: screened with pydt4's
   gps_trawl_check (start coordinates from the tow list); no candidate -> excluded without investigation.
 
-## Processing (pydt4)
+## Echoview steps (as bloaterTS; dongle)
+- scripts/03_copy_tow_files.py, 04_make_ev_files.py <ids>, 05_export.py <ids>, 06_nv_index.py, 06b_combine_exports.py,
+  07_fish_tracks.py track/summarize: bloaterTS's bloaterts code with this folder as project root (_bloaterts.py).
+  Only tows with an ECS row in calibration/ecs_checklist.csv can be built.
+
+## Processing (pydt4; cross-check)
 - dt4: `python run_tow_batch.py --tows D:/pyprojects/mixedtows/data/LH_tow_list_mixed.csv --root D:/Acoustics/Huron
   --ecs data/ecs_parameters_usgs_steelhead.csv --out D:/pyprojects/mixedtows/data/derived/tow_results.csv
   --st-dir D:/pyprojects/mixedtows/output/tow_single_targets --regions "" --corrections "" --op-ids <calibrated tows>`
   (from pydt4). ONLY tows of vessel-years with a Huron calibration (see STATUS), never the whole list.
 - Simrad: `tow_echograms.run_simrad_tows(<tow list>, "D:/Acoustics/Huron", results_csv=..., st_dir=..., regions_csv="",
   corrections="")` after run_tow_batch. Echograms: plot_all_echograms --tows --root --corrections --results --st-dir --out-dir.
-- Share zip: `scripts/04_share_package.py` -> output/share/mixed_tows_huron.zip.
+- Share zip: `scripts/08_share_package.py` -> output/share/mixed_tows_huron.zip.
 
 ## Environment
 - R 4.4.0: `C:\Program Files\R\R-4.4.0\bin\Rscript.exe`. Python: pydt4's `echopype` env (see pydt4 CLAUDE.md).

@@ -1,0 +1,27 @@
+﻿#========================================================================================#
+#               ECHOVIEW CALIBRATION SUPPLEMENT (.ECS) FILE (BioSonics DT)               #
+#  Sturgeon, LAKE HURON 2011, 120 kHz, survey channel 1 (DT12622). PROVISIONAL REUSE of the#
+#  Michigan 2011 calibration (Michigan files have DT12622 on channel 2): same unit and   #
+#  header settings. Report calibration\Sturgeon_Michigan_2011_120kHz_cal_assist_report.txt #
+#  Replace with a Huron calibration if Huron 2011 sphere data arrives (2026-10-13).      #
+#========================================================================================#
+
+Version 1.00
+
+
+#========================================================================================#
+#                                   SOURCECAL SETTINGS                                   #
+#========================================================================================#
+
+SourceCal (channel 1)
+      CalibrationOffsetSv = 1.4776 # (decibels) [-99.900..99.900]
+      CalibrationOffsetTs = 0.4357 # (decibels) [-99.900..99.900]
+      MajorAxis3dbBeamAngle = 8.5469 # (degrees) [0.00..359.99]
+      MajorAxisAngleOffset = -0.2497 # (degrees) [-9.99..9.99]
+      MinorAxis3dbBeamAngle = 8.7302 # (degrees) [0.00..359.99]
+      MinorAxisAngleOffset = -0.2958 # (degrees) [-9.99..9.99]
+
+
+#========================================================================================#
+#                                    LOCALCAL SETTINGS                                   #
+#========================================================================================#

@@ -1,0 +1,16 @@
+# mixedtows project settings for the Echoview steps, read by bloaterTS's pipeline code (bloaterts package,
+# D:\pyprojects\bloaterTS\src) run with this folder as the project root. Same layout and keys as bloaterTS's
+# config/project.yaml. st_method2.yaml, exports.yaml, nv_index.yaml and transducer_depths.csv are copies of
+# bloaterTS's (commit c27739e, 2026-10-14): the same Echoview settings as the bloater study.
+
+# Raw acoustic data (read only; never written to)
+acoustic_data_roots:
+  Huron: 'D:\Acoustics\Huron'
+
+echoview_version: '16.1.73'
+
+tow_list_csvs:
+  - data/LH_tow_list_mixed.csv
+acoustic_copies_dir: data/acoustic                      # tow_matches.csv, tow_files.csv; copies under Huron/
+ev_files_dir: echoview/ev_files
+run_logs_dir: echoview/run_logs

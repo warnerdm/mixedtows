@@ -1,0 +1,23 @@
+#  LAKE HURON copy of Baird_Michigan_2014_120kHz_T2.ecs (2026-10-13): the Huron tows use the same unit and settings (checked
+#  2026-10-13; pydt4 claude_calibration_notes.md). Keep identical to the Michigan file.
+#  ECHOVIEW CALIBRATION SUPPLEMENT (.ECS) FILE - Baird 2014, Simrad EK60, 120 kHz
+#  Values: EK80 software calibration (replay of the EK60 sphere file
+#  30JUL14_cal_120_3rdtry-D20140730-T163535.raw, 2026-09-30), fit results in
+#  calibration\Baird_Michigan_2014_120kHz_EK80_cal.xml: gain 26.79, sa correction -0.5774, beam widths 6.16 along /
+#  6.14 athwart, angle offsets 0.15 along / -0.17 athwart, RMS 0.14 dB (2,286 hits).
+#  TransducerGain includes +0.074 dB for the sphere's water (sphere in the thermocline,
+#  11.5-14.1 C, transducer at 2.7 m; user, 2026-09-30), as pydt4's SIMRAD_CAL[(35, 2014)].
+#  TwoWayBeamAngle: the file's own value. The 120 kHz transducer is T2 in the survey files.
+#  Same values as pydt4's validated Echoview comparison of tow 89428 (Sv 0.0000 dB).
+#  Echoview axes: minor = alongship, major = athwartship.
+
+Version 1.00
+
+SourceCal T2
+      TransducerGain = 26.864
+      SaCorrectionFactor = -0.5774
+      TwoWayBeamAngle = -20.1
+      MinorAxis3dbBeamAngle = 6.16
+      MajorAxis3dbBeamAngle = 6.14
+      MinorAxisAngleOffset = 0.15
+      MajorAxisAngleOffset = -0.17

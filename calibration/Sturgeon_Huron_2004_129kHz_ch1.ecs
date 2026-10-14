@@ -1,0 +1,26 @@
+﻿#========================================================================================#
+#               ECHOVIEW CALIBRATION SUPPLEMENT (.ECS) FILE (BioSonics DT)               #
+#  Sturgeon, LAKE HURON 2004, 129 kHz, survey channel 1 (DT600095). Made 2026-10-13 from  #
+#  the Echoview Calibration Assistant run 3 on the 27 Sep 2004 Tobermory session (header  #
+#  15.0 C, 33.2 mm). Report calibration\Sturgeon_Huron_2004_129kHz_cal_assist_report.txt.#
+#========================================================================================#
+
+Version 1.00
+
+
+#========================================================================================#
+#                                   SOURCECAL SETTINGS                                   #
+#========================================================================================#
+
+SourceCal (channel 1)
+      CalibrationOffsetSv = 1.0635 # (decibels) [-99.900..99.900]
+      CalibrationOffsetTs = 0.2758 # (decibels) [-99.900..99.900]
+      MajorAxis3dbBeamAngle = 6.9065 # (degrees) [0.00..359.99]
+      MajorAxisAngleOffset = 0.0063 # (degrees) [-9.99..9.99]
+      MinorAxis3dbBeamAngle = 7.0419 # (degrees) [0.00..359.99]
+      MinorAxisAngleOffset = -0.3124 # (degrees) [-9.99..9.99]
+
+
+#========================================================================================#
+#                                    LOCALCAL SETTINGS                                   #
+#========================================================================================#

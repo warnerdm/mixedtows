@@ -1,0 +1,36 @@
+﻿#========================================================================================#
+#               ECHOVIEW CALIBRATION SUPPLEMENT (.ECS) FILE (BioSonics DT)               #
+#  Sturgeon, LAKE HURON 2010, 120 kHz (DT12622). Made 2026-10-13 from the Echoview        #
+#  Calibration Assistant rerun on the 4 Oct 2010 East Tawas session (header 13.5 C,       #
+#  33.2 mm). The 120 kHz is channel 1 in tow 81797 and channel 2 in 81805/81810, so the   #
+#  same values are given for both channels (38 kHz DT381007 not calibrated here). Report  #
+#  calibration\Sturgeon_Huron_2010_120kHz_cal_assist_report.txt.                         #
+#========================================================================================#
+
+Version 1.00
+
+
+#========================================================================================#
+#                                   SOURCECAL SETTINGS                                   #
+#========================================================================================#
+
+SourceCal (channel 1)
+      CalibrationOffsetSv = 1.8754 # (decibels) [-99.900..99.900]
+      CalibrationOffsetTs = 0.8759 # (decibels) [-99.900..99.900]
+      MajorAxis3dbBeamAngle = 8.5206 # (degrees) [0.00..359.99]
+      MajorAxisAngleOffset = -0.5402 # (degrees) [-9.99..9.99]
+      MinorAxis3dbBeamAngle = 8.2841 # (degrees) [0.00..359.99]
+      MinorAxisAngleOffset = -0.2706 # (degrees) [-9.99..9.99]
+
+SourceCal (channel 2)
+      CalibrationOffsetSv = 1.8754 # (decibels) [-99.900..99.900]
+      CalibrationOffsetTs = 0.8759 # (decibels) [-99.900..99.900]
+      MajorAxis3dbBeamAngle = 8.5206 # (degrees) [0.00..359.99]
+      MajorAxisAngleOffset = -0.5402 # (degrees) [-9.99..9.99]
+      MinorAxis3dbBeamAngle = 8.2841 # (degrees) [0.00..359.99]
+      MinorAxisAngleOffset = -0.2706 # (degrees) [-9.99..9.99]
+
+
+#========================================================================================#
+#                                    LOCALCAL SETTINGS                                   #
+#========================================================================================#

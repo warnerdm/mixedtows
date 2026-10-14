@@ -1,0 +1,27 @@
+﻿#========================================================================================#
+#               ECHOVIEW CALIBRATION SUPPLEMENT (.ECS) FILE (BioSonics DT)               #
+#  Sturgeon, LAKE HURON 2007, 129 kHz, survey channel 1 (X6120603). Made 2026-10-13 from  #
+#  the Echoview Calibration Assistant run 3 on the 7 Oct 2007 session (header 15.0 C,     #
+#  33.2 mm). Poor minor-axis coverage: minor beam and offset poorly determined, TS/Sv     #
+#  offsets +-0.15 dB. Report calibration\Sturgeon_Huron_2007_129kHz_cal_assist_report.txt#
+#========================================================================================#
+
+Version 1.00
+
+
+#========================================================================================#
+#                                   SOURCECAL SETTINGS                                   #
+#========================================================================================#
+
+SourceCal (channel 1)
+      CalibrationOffsetSv = -1.0054 # (decibels) [-99.900..99.900]
+      CalibrationOffsetTs = -1.7473 # (decibels) [-99.900..99.900]
+      MajorAxis3dbBeamAngle = 7.1647 # (degrees) [0.00..359.99]
+      MajorAxisAngleOffset = -0.8909 # (degrees) [-9.99..9.99]
+      MinorAxis3dbBeamAngle = 6.3189 # (degrees) [0.00..359.99]
+      MinorAxisAngleOffset = 0.6658 # (degrees) [-9.99..9.99]
+
+
+#========================================================================================#
+#                                    LOCALCAL SETTINGS                                   #
+#========================================================================================#

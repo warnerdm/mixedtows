@@ -1,0 +1,9 @@
+vessel_code,vessel,lake,year_from,year_to,format,depth_m,source
+17,Steelhead,Michigan,2005,2024,dt4,1.0,"user 2026-09-29 (pydt4 transducer_depth.py)"
+88,Sturgeon,Michigan,2005,2021,dt4,1.8,"user 2026-09-29 (pydt4 transducer_depth.py)"
+88,Sturgeon,Michigan,2022,2023,raw,2.04,"user 2026-09-29 (pydt4 transducer_depth.py); EK80 files record 0"
+35,Baird,Michigan,2014,2015,raw,2.7,"user 2026-09-30 and 2026-10-02 (pydt4 transducer_depth.py); EK60 files record 0"
+35,Baird,Michigan,2024,2024,raw,3.0,"the EK80 files' own value (transducer offset Z 3 m)"
+88,Sturgeon,Huron,2004,2018,dt4,1.8,"user 2026-10-13: same as Lake Michigan (pydt4 transducer_depth.py)"
+35,Baird,Huron,2011,2017,raw,2.7,"user 2026-10-13: same as Lake Michigan (Baird 2014-2015 2.7 m); EK60 files record 0"
+35,Baird,Huron,2018,2018,raw,3.0,"user 2026-10-13: 3 m, as the EK80 files of tows 107739 107750 107753 record ('3m offset'); 107734's file records 0"

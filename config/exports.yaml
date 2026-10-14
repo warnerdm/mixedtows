@@ -1,0 +1,20 @@
+# Step 5 exports (src/bloaterts/ev_export.py), per tow, from its EV file, for the region
+# "OP_ID = <OP_ID>". Output: echoview/exports/tow_<OP_ID>/.
+
+# Single targets kept for analysis: inside the region (its ping range and depth window) and with
+# TS_comp <= ts_max_db (from config/st_method2.yaml, common.ts_max_db).
+
+# Echogram image of the single-targets variable (user, 2026-10-03).
+image:
+  padding_min: 5                    # minutes before the tow start and after the tow end
+  depth_top_m: 0.0                  # surface
+  below_bottom_m: 5.0               # down to the deepest bottom-line depth in the image window + this
+  width_px: 1600                    # Echoview sets the final width itself (varies by tow);
+                                    # only the height is fixed (user, 2026-10-03)
+  height_px: 800
+  format: png
+
+# Pause (seconds) after opening each EV file and between exports: Echoview through COM can report
+# an operation as finished while it is still working (user's experience with batch COM in R;
+# 3 empty single-target exports in one 68-tow batch, 2026-10-03). Incomplete exports are also retried.
+com_pause_s: 2.0

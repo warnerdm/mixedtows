@@ -11,7 +11,7 @@ Writes output/share/mixed_tows_huron/ and output/share/mixed_tows_huron.zip (git
 Inputs (this project): data/LH_tow_list_mixed.csv, data/acoustic/tow_matches.csv, data/derived/tow_catch.csv,
 data/derived/tow_results.csv (pydt4), output/tow_single_targets/, output/echograms/.
 
-    python scripts/04_share_package.py          (echopype env)
+    python scripts/08_share_package.py          (echopype env)
 """
 import glob
 import html
@@ -26,6 +26,7 @@ NAME = "mixed_tows_huron"
 OUT = os.path.join(ROOT, "output", "share", NAME)
 ST_DIR = os.path.join(ROOT, "output", "tow_single_targets")
 ECHO_DIR = os.path.join(ROOT, "output", "echograms")
+TRACK_DIR = os.path.join(ROOT, "echoview", "fish_tracks")
 
 # Species in a fixed order; categorical slots 1-5 of the reference palette (light, dark)
 SPECIES = [("alewife", "Alewife"), ("smelt", "Rainbow smelt"), ("cisco", "Cisco"), ("bloater", "Bloater"),
@@ -55,6 +56,9 @@ def load():
          .merge(tl[["OP_ID", "YEAR", "VESSEL", "TRANSECT", "datetime", "TOW_TIME", "FISHING_DEPTH", "BEG_DEPTH",
                     "END_DEPTH", "BEG_LATITUDE_DD", "BEG_LONGITUDE_DD"]], on="OP_ID")
          .merge(catch.drop(columns=["YEAR", "VESSEL", "lake", "transect", "time", "lat", "lon"]), on="OP_ID"))
+    tr = pd.read_csv(os.path.join(TRACK_DIR, "tow_track_summary.csv"))
+    d = d.merge(tr[["OP_ID", "fish_tracks", "frac_in_tracks", "ts_per_fish_median", "strong_tracks"]], on="OP_ID",
+                how="left")
     targets = {}
     for op in d.OP_ID:
         f = os.path.join(ST_DIR, f"{op}_single_targets.csv")
@@ -207,7 +211,7 @@ def tow_section(r, ts):
         f'background:var(--s{i + 1})"></i>{esc(label)}</td><td>{r[f"n_{k}"]:g}</td>'
         f'<td>{fmt(r[f"w_{k}"], 0)}</td></tr>'
         for i, (k, label) in enumerate(SPECIES))
-    img = glob.glob(os.path.join(OUT, "img", f"*{r.OP_ID}*.png"))
+    img = [f for f in glob.glob(os.path.join(OUT, "img", f"*{r.OP_ID}*.png")) if "tracks_" not in f]
     img_html = (f'<img src="img/{esc(os.path.basename(img[0]))}" alt="Echogram of tow {r.OP_ID}" loading="lazy">'
                 if img else '<p>No echogram.</p>')
     return f"""
@@ -222,6 +226,10 @@ Mean Sv {r.mean_sv_db:.1f} dB, Nv {fmt(r.nv, 3)}, {int(r.st_n_targets)} single t
 <tr><td>Other species</td><td>{r.n_other:g}</td><td></td></tr></table></div>
 <div>{ts_hist_svg(ts, r.OP_ID)}</div>
 </div>
+<p style="margin-top:12px">Fish tracks (Echoview, maximum gap 0): {int(r.fish_tracks)} fish; {r.frac_in_tracks:.0%} of
+targets in tracks; median TS per fish {r.ts_per_fish_median:.1f} dB; {int(r.strong_tracks)} fish with mean TS above -35 dB.
+Left: targets per detection; middle: per fish (track mean); right: TS within fish.</p>
+<img src="img/tracks_{r.OP_ID}.png" alt="Fish-track TS of tow {r.OP_ID}" loading="lazy">
 <div style="margin-top:12px">{img_html}</div>
 </section>"""
 
@@ -248,6 +256,10 @@ Acoustics (pydt4, the same processing as the bloater TS study)
   backscattering strength there (background noise removed; samples below the bottom line excluded). Nv: number of
   fish per acoustic sampling volume (single-target TS can be biased above about 0.04-0.1). Single targets: Great
   Lakes SOP settings, TS -60 to -30 dB. 120 kHz (Sturgeon BioSonics dt4; Baird Simrad).
+  Echoview (16.1) EV files built with the bloater study's settings give the same results: Sv within 0.002 dB
+  (dt4) and 0.005 dB (Simrad), single targets 12,592 vs 12,593. Fish tracks: Echoview fish tracking on the
+  single targets, maximum gap 0 (targets on consecutive pings only), at least 2 targets; one TS per fish
+  (track mean) counts fish the way the trawl does, instead of echoes.
 
 Not done yet
   The echograms have not been reviewed: no bad-data regions and no tow start corrections have been applied, so
@@ -255,7 +267,8 @@ Not done yet
 
 Files
   {name}.html   overview, table and one section per tow
-  img/          echogram of each tow (tow region outlined; single targets as points; bottom line in white)
+  img/          echogram of each tow (tow region outlined; single targets as points; bottom line in white),
+                and tracks_<tow>.png: TS per detection, per fish and within fish
   tows.csv      one row per tow (catch, J, acoustic results)
 """
 
@@ -268,6 +281,7 @@ def main():
     for op in d.OP_ID:
         for f in glob.glob(os.path.join(ECHO_DIR, f"*{op}*.png")):
             shutil.copy2(f, os.path.join(OUT, "img"))
+        shutil.copy2(os.path.join(TRACK_DIR, "figures", f"tow_{op}.png"), os.path.join(OUT, "img", f"tracks_{op}.png"))
     n_mixed = len(tl)
     held = matches[matches.status != "ok"]
     no_cal = n_mixed - len(held) - len(d)
@@ -278,7 +292,8 @@ def main():
         f'<tr><td><a href="#t{r.OP_ID}">{r.OP_ID}</a></td><td>{r.YEAR}</td><td>{esc(r.TRANSECT)}</td>'
         f'<td>{r.FISHING_DEPTH:g}</td><td>{int(r.n_tot)}</td><td>{r.J_n:.2f}</td><td>{fmt(r.J_w, 2)}</td>'
         f'<td>{esc(dict(SPECIES).get(r.dom_n, r.dom_n))}</td><td>{fmt(r.mean_sv_db)}</td><td>{fmt(r.nv, 3)}</td>'
-        f'<td>{int(r.st_n_targets)}</td><td>{fmt(r.st_median_ts_db)}</td></tr>' for r in d.itertuples())
+        f'<td>{int(r.st_n_targets)}</td><td>{fmt(r.st_median_ts_db)}</td><td>{int(r.fish_tracks)}</td>'
+        f'<td>{fmt(r.ts_per_fish_median)}</td></tr>' for r in d.itertuples())
     page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>Mixed Tows Huron</title>
 <style>{CSS}</style></head><body><main>
@@ -295,7 +310,8 @@ values; click a tow number for its section.</p>
 <h2>Table</h2>
 <div class="card scroll"><table>
 <tr><th>Tow</th><th>Year</th><th>Transect</th><th>Headrope (m)</th><th>Fish (5 spp.)</th><th>J number</th>
-<th>J weight</th><th>Most by number</th><th>Mean Sv (dB)</th><th>Nv</th><th>Targets</th><th>Median TS (dB)</th></tr>
+<th>J weight</th><th>Most by number</th><th>Mean Sv (dB)</th><th>Nv</th><th>Targets</th><th>Median TS (dB)</th>
+<th>Fish tracks</th><th>Median TS per fish (dB)</th></tr>
 {table_rows}</table></div>
 <h2>Tows</h2>
 {"".join(tow_section(r, targets[r.OP_ID]) for _, r in d.iterrows())}

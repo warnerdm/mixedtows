@@ -1,0 +1,4 @@
+ping,ping_number,ping_index,sound_speed_m_s,pulse_duration_ms,effective_pulse_duration_ms,two_way_beam_angle_db
+start,764,763,1457.64,0.4,1.0,-19.344323
+mid,1663,1662,1457.64,0.4,1.0,-19.344323
+end,2563,2562,1457.64,0.4,1.0,-19.344323

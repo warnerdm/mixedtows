@@ -1,0 +1,8 @@
+# Sawada Nv index per tow region (src/bloaterts/nv_index.py), midrange form (user, 2026-10-03),
+# from the step 5 exports.
+
+# Tows with Nv above this are flagged (nv_gt_flag). 0.1 is the cutoff pydt4 uses and a common one
+# in the literature; Sawada et al. (1993) used 0.04.
+nv_flag: 0.1
+
+output_csv: data/derived/nv_by_tow.csv

@@ -40,13 +40,33 @@
   Nv median 0.004, max 0.029 (76725); median TS -57.2 to -43.5 dB (82904 highest); 89205 has 22% of the region
   below the bottom line.
 - Catch per tow: data/derived/tow_catch.csv (analysis/03_tow_catch.R, trawlcomp tow_evenness).
-- Share package (user, 2026-10-14; to upload to Box like bloaterTS review/share): scripts/04_share_package.py ->
+- Share package (user, 2026-10-14; to upload to Box like bloaterTS review/share): scripts/08_share_package.py ->
   output/share/mixed_tows_huron.zip (15.9 MB): one HTML page (overview: catch by number and weight beside median
   TS and mean Sv, rows ordered by median TS; table; per tow catch table, TS histogram, echogram; inline SVG, no
   internet needed), img/, tows.csv, README.txt. Marked preliminary.
 
+- ECHOVIEW PIPELINE (user, 2026-10-14: "do this with Echoview"; the project goes through Echoview as bloaterTS):
+  bloaterTS's pipeline code (bloaterts package) run with this folder as root (scripts/_bloaterts.py).
+  config/project.yaml + copies of bloaterTS st_method2.yaml, exports.yaml, nv_index.yaml, transducer_depths.csv
+  (c27739e); calibration/ = bloaterTS's Huron ecs_checklist rows with ECS files (copies; bloaterTS is master).
+  - Step 3 copy: 129 files, 33 tows, 4.3 GB -> data/acoustic/Huron/ (git-ignored), SHA-256 in tow_files.csv.
+  - Step 4 EV files: 19 made (Echoview 16.1.73), no problems; channels as pydt4 (81791 ch1 from the data file).
+  - Step 5 exports: 19 (107xxx/one tow: 2 region pings without a bottom pick, bottom 36 m below the region).
+  - Step 6 Nv (data/derived/nv_by_tow.csv): median 0.0034, max 0.0234. Step 6b combined tables in data/derived/.
+  - Echoview vs pydt4: dt4 17 tows |Sv diff| median 0.0002, max 0.0018 dB; targets 12,252 vs 12,253 (7 tows +-1).
+    Simrad 2 tows 0.003 / 0.005 dB (known range-window convention); targets 340 = 340.
+  - Step 7 fish tracks (scripts/07_fish_tracks.py: bloaterTS fish_tracks_all_gap0 run_tracks/summarize_tracks,
+    gap 0, min 2 targets/pings, TS weight 0) -> echoview/fish_tracks/ (tow_track_summary.csv, tracks_all_tows.csv,
+    targets_with_track.csv, figures/): 19 ok; targets used = pipeline in every tow, 0 assignment mismatches.
+    1,970 fish tracks; share in tracks median 0.94 (107738 0.67, 30 targets). Per-fish minus per-ping mean TS
+    -3.12 (93112) to +2.36 dB (93142), wider than the bloater tows (-1.07..+0.66). Strong fish (track mean TS >
+    -35 dB) in 7 tows (76706 4, 76725 3, 81791 3): under the bloater rule (>= 13 dB above the median fish) they would
+    be removed; for mixed tows the review rules are to be relaxed (user, 2026-10-14), not yet defined.
+- Share package now includes the track figures and per-fish TS (scripts/08_share_package.py; 16.6 MB).
+
 ## Tasks
 1. Huron calibrations for Sturgeon 2012, 2013, 2017, 2018 (14 tows) and the 2005 check (2 tows).
-2. Echogram review of the processed tows -> this project's bad-data regions (config/bad_data_regions.csv in
+2. Define the relaxed review rules for mixed tows (what to include, exclude or flag; user), then the
+   echogram review of the processed tows -> this project's bad-data regions (config/bad_data_regions.csv in
    bloaterTS's regions.csv format), and start corrections if a GPS window runs into the haulback.
-3. Rerun with this project's regions/corrections files; rebuild the share package.
+3. Rerun (steps 4-7 for Echoview; pydt4 with --regions/--corrections) and rebuild the share package.
