@@ -1,0 +1,7 @@
+vessel,year,op_id,action,reason,new_start
+88,2009,79281,exclude,"Lake Huron 2009: the 2009 Huron survey recorded only 38 kHz, no 120 kHz data; all Lake Huron 2009 tows are excluded (user, 2026-10-13; bloaterTS config/match_overrides.csv, 79287)",
+88,2005,58532,exclude,"no file covers the logged start 2005-09-18 21:51 (mw5); gps_trawl_check: no candidate at the logged start or +-24 h, so excluded without investigation (user rule 2026-10-05; checked 2026-10-14)",
+88,2005,58555,exclude,"no file covers the logged start 2005-10-12 23:01 (me5); gps_trawl_check: no candidate at the logged start or +-24 h, so excluded without investigation (user rule 2026-10-05; checked 2026-10-14)",
+88,2005,58580,exclude,"no file covers the logged start 2005-10-28 19:09 (gb2); gps_trawl_check: no candidate at the logged start or +-24 h, so excluded without investigation (user rule 2026-10-05; checked 2026-10-14)",
+88,2008,78319,exclude,"no file covers the logged start 2008-09-29 22:47 (gb1; nearest earlier file 37 min before); gps_trawl_check: no candidate at the logged start or +-24 h, so excluded without investigation (user rule 2026-10-05; checked 2026-10-14)",
+35,2012,85687,exclude,"Baird (Simrad, gps_trawl_check is dt4 only): logged 2012-09-06 03:59 mw4; folder LH_MW4_06SEP2012 files run 2012-09-07 00:07-02:18 (local file clock), so no file covers 03:59 on the logged date or one day later (the usual after-midnight slip); excluded without investigation (user rule 2026-10-05; checked 2026-10-14)",

@@ -24,6 +24,12 @@ patterns in acoustic data that should come from mixed species. Lake Huron first.
   acoustic_format by vessel/year). The `LH_` prefix gives the lake to pydt4. Checked by rebuilding bloaterTS's 88
   Huron tows exactly.
 
+## Matching
+- `scripts/02_match_tows.py` (Python, echopype env) runs bloaterTS's match step on this tow list with
+  `config/match_overrides.csv` (bloaterTS's format: exclude / accept_unfiltered / correct_start, with reasons)
+  and writes `data/acoustic/tow_matches.csv` and `tow_files.csv`. Failed matches: screened with pydt4's
+  gps_trawl_check (start coordinates from the tow list); no candidate -> excluded without investigation.
+
 ## Environment
 - R 4.4.0: `C:\Program Files\R\R-4.4.0\bin\Rscript.exe`. Python: pydt4's `echopype` env (see pydt4 CLAUDE.md).
 - Code lives in `R/` (functions); `analysis/` holds scripts that only call them; results go to `output/`.
