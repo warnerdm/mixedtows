@@ -30,4 +30,4 @@ patterns in acoustic data that should come from mixed species. Lake Huron first.
 
 ## Working rules
 - The user is the fisheries expert. One step at a time; ask before changing a settled choice.
-- At session end, update `STATUS.md` and commit (push once a remote exists).
+- At session end, update `STATUS.md` and commit and `git push` (origin = github.com/warnerdm/mixedtows, private).
