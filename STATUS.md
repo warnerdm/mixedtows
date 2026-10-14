@@ -51,7 +51,7 @@
   (c27739e); calibration/ = bloaterTS's Huron ecs_checklist rows with ECS files (copies; bloaterTS is master).
   - Step 3 copy: 129 files, 33 tows, 4.3 GB -> data/acoustic/Huron/ (git-ignored), SHA-256 in tow_files.csv.
   - Step 4 EV files: 19 made (Echoview 16.1.73), no problems; channels as pydt4 (81791 ch1 from the data file).
-  - Step 5 exports: 19 (107xxx/one tow: 2 region pings without a bottom pick, bottom 36 m below the region).
+  - Step 5 exports: 19 (107742: 2 region pings without a bottom pick, bottom 36 m below the region).
   - Step 6 Nv (data/derived/nv_by_tow.csv): median 0.0034, max 0.0234. Step 6b combined tables in data/derived/.
   - Echoview vs pydt4: dt4 17 tows |Sv diff| median 0.0002, max 0.0018 dB; targets 12,252 vs 12,253 (7 tows +-1).
     Simrad 2 tows 0.003 / 0.005 dB (known range-window convention); targets 340 = 340.
