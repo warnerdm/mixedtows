@@ -1,7 +1,7 @@
 OP_ID,lake,vessel,year,transect,acoustic_format,status,reason,match_level,entry_gap_s,n_files,tow_start_correction
-58517,Huron,88,2005,mw1,dt4,ok,,content:transect_only,409.8,1,
+58517,Huron,88,2005,mw1,dt4,excluded,"ON HOLD: Huron 2005 calibration unresolved (vessel 88 may have used two set-ups in 2005; table has only a Michigan channel 3 row); left out for now (user, 2026-10-14). Matched 1 file before the hold",,,0,
 58532,Huron,88,2005,mw5,dt4,excluded,"no file covers the logged start 2005-09-18 21:51 (mw5); gps_trawl_check: no candidate at the logged start or +-24 h, so excluded without investigation (user rule 2026-10-05; checked 2026-10-14)",,,0,
-58540,Huron,88,2005,mw6,dt4,ok,,filename:transect_only,261.0,3,
+58540,Huron,88,2005,mw6,dt4,excluded,"ON HOLD: Huron 2005 calibration unresolved (vessel 88 may have used two set-ups in 2005; table has only a Michigan channel 3 row); left out for now (user, 2026-10-14). Matched 3 files before the hold",,,0,
 58555,Huron,88,2005,me5,dt4,excluded,"no file covers the logged start 2005-10-12 23:01 (me5); gps_trawl_check: no candidate at the logged start or +-24 h, so excluded without investigation (user rule 2026-10-05; checked 2026-10-14)",,,0,
 58580,Huron,88,2005,gb2,dt4,excluded,"no file covers the logged start 2005-10-28 19:09 (gb2); gps_trawl_check: no candidate at the logged start or +-24 h, so excluded without investigation (user rule 2026-10-05; checked 2026-10-14)",,,0,
 76701,Huron,88,2007,gb5,dt4,ok,,filename:transect_only,460.0,5,

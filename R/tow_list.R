@@ -51,3 +51,12 @@ huron_mixed_op_ids <- function() {
     mixed_tows(tow_evenness(tows))$OP_ID
   }, args = list(file.path(TRAWLCOMP_R, "evenness.R")))
 }
+
+# Catch of the five species per tow (numbers, weights, J; trawlcomp tow_evenness) for these OP_IDs
+huron_tow_catch <- function(op_ids) {
+  callr::r(function(f, ids) {
+    suppressWarnings(suppressMessages(source(f)))
+    tows <- select_tows() %>% filter(lake == "Huron", OP_ID %in% ids)
+    tow_evenness(tows)
+  }, args = list(file.path(TRAWLCOMP_R, "evenness.R"), op_ids))
+}

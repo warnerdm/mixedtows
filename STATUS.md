@@ -27,8 +27,26 @@
   "Steelhead Michigan 2005 new Cal 129 kHz Channel 1.ecs" and EV folders "Sturgeon EVfiles_where_120_is_channel1
   (MDNR equip)" / "..._channel3", so 2005 may have used two set-ups.
 
+- 58517 and 58540 (Huron 2005) ON HOLD (user, 2026-10-14): exclude rows in config/match_overrides.csv -> 33 ok.
+- CORRECTION (2026-10-14): the coverage note above was wrong. pydt4 has Huron calibrations only for Sturgeon 2004,
+  2007, 2008, 2010, 2011 (provisional), 2014, 2015 (provisional), 2016 and Baird 2011, 2014, 2015, 2018 (pydt4
+  STATUS: "do NOT run run_tow_batch on the whole LH list"). Of the 33: 19 runnable; 14 wait for a Huron
+  calibration: Sturgeon 2012 (85699, 85711, 85746), 2013 (86749, 86782, 86786, 86828), 2017 (104608, 104708),
+  2018 (107022, 107027, 107031, 107053, 107201).
+- PRELIMINARY RUN (2026-10-14; no bad-data regions, no start corrections: --regions "" --corrections ""):
+  data/derived/tow_results.csv: 19 ok (17 dt4 via run_tow_batch --op-ids; 2 Baird via run_simrad_tows; 85687 row
+  no_file_match). Single targets in output/tow_single_targets/, echograms in output/echograms/ (plot_all_echograms).
+  Check: 93118 identical to pydt4's tow_results row (no bloaterTS regions or correction for it).
+  Nv median 0.004, max 0.029 (76725); median TS -57.2 to -43.5 dB (82904 highest); 89205 has 22% of the region
+  below the bottom line.
+- Catch per tow: data/derived/tow_catch.csv (analysis/03_tow_catch.R, trawlcomp tow_evenness).
+- Share package (user, 2026-10-14; to upload to Box like bloaterTS review/share): scripts/04_share_package.py ->
+  output/share/mixed_tows_huron.zip (15.9 MB): one HTML page (overview: catch by number and weight beside median
+  TS and mean Sv, rows ordered by median TS; table; per tow catch table, TS histogram, echogram; inline SVG, no
+  internet needed), img/, tows.csv, README.txt. Marked preliminary.
+
 ## Tasks
-1. Huron 2005 calibration for 58517 and 58540 (see above; ask the user).
-2. Echogram review of the 35 matched tows -> this project's bad-data regions (config/bad_data_regions.csv in
+1. Huron calibrations for Sturgeon 2012, 2013, 2017, 2018 (14 tows) and the 2005 check (2 tows).
+2. Echogram review of the processed tows -> this project's bad-data regions (config/bad_data_regions.csv in
    bloaterTS's regions.csv format), and start corrections if a GPS window runs into the haulback.
-3. Run tow regions (Sv, Nv, single targets) with pydt4, passing this project's regions/corrections files.
+3. Rerun with this project's regions/corrections files; rebuild the share package.
